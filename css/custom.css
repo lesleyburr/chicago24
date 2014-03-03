@@ -27,3 +27,11 @@ ul {
 .hide {
 	display: none;
 }
+
+.schedule__filter li {
+	display: inline;
+}
+
+.ad--tour-packages {
+	float: right;
+}
