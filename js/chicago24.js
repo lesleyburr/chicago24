@@ -39,3 +39,35 @@ $("#Saturday8pm").click(function() {
 $("#Saturday10pm").click(function() {
 	$("#ToursSaturday10pm").slideToggle( "slow", "linear" );
 });
+
+$("#Sunday12am").click(function() {
+	$("#ToursSunday12am").slideToggle( "slow", "linear" );
+});
+
+$("#Sunday4am").click(function() {
+	$("#ToursSunday4am").slideToggle( "slow", "linear" );
+});
+
+$("#Sunday6am").click(function() {
+	$("#ToursSunday6am").slideToggle( "slow", "linear" );
+});
+
+$("#Sunday7am").click(function() {
+	$("#ToursSunday7am").slideToggle( "slow", "linear" );
+});
+
+$("#Sunday9am").click(function() {
+	$("#ToursSunday9am").slideToggle( "slow", "linear" );
+});
+
+$("#Sunday10am").click(function() {
+	$("#ToursSunday10am").slideToggle( "slow", "linear" );
+});
+
+$("#Sunday11am").click(function() {
+	$("#ToursSunday11am").slideToggle( "slow", "linear" );
+});
+
+$("#Sunday12pm").click(function() {
+	$("#ToursSunday12pm").slideToggle( "slow", "linear" );
+});
