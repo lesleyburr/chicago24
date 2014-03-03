@@ -38,6 +38,7 @@ ul {
 
 
 /*media query for small screens*/
-.hide--small {
-	display: none;
-}
+@media only screen and (min-width: 321px) and (max-width: 640px) {
+	.hide--small {
+		display: none;
+	}
