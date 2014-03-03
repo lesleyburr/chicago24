@@ -40,9 +40,6 @@ ul {
 
 /*// Small screens*/
 @media only screen { 
-	.hide--small {
-		display: none;
-	}
 } /* Define mobile styles */
 
 @media only screen and (max-width: 40em) { 
