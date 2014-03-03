@@ -22,4 +22,8 @@ ul {
 .navigation__main li{
 	display: inline;
 	padding-right: 3rem;
-}g
+}
+
+.schedule__time--saturday-12pm {
+	display: none;
+}
