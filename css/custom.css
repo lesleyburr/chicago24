@@ -32,6 +32,12 @@ ul {
 	display: none;
 }
 
-/*.ad--tour-packages {
+.ad--tour-packages {
 	float: right;
-}*/
+}
+
+
+/*media query for small screens*/
+.hide--small {
+	display: none;
+}
