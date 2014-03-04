@@ -2,12 +2,12 @@ ul {
 	list-style-type: none;
 }
 
-.document__logo--museum {
+.header__logo--museum {
 	padding-top: 3rem;
 	width: 45%;
 }
 
-.document__logo--chicago24 {
+.header__logo--chicago24 {
 	padding-bottom: 3rem;
 	padding-top: 4rem;
 	width: 70%;
