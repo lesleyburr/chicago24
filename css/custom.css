@@ -13,6 +13,11 @@ ul {
 	width: 70%;
 }
 
+.introduction {
+	font-size: 30em;
+	color: red;
+}
+
 .navigation__main {
 	margin: 0 auto;
 	padding-top: 2rem;
@@ -35,7 +40,6 @@ ul {
 .ad--tour-packages {
 	float: right;
 }
-
 
 
 /*// Small screens*/
