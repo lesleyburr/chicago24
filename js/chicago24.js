@@ -5,15 +5,15 @@
 	// HIDE Tours ON ClICK
 
 $("#Saturday12pm").click(function() {
-	$("#ToursSaturday12pm").slideToggle( "slow", "linear" );
+	$("#TourSaturday, #ToursSaturday12pm").slideToggle( "slow", "linear" );
 });
 
 $("#Saturday1pm").click(function() {
-	$("#ToursSaturday1pm").slideToggle( "slow", "linear" );
+	$("#TourSaturday, #ToursSaturday1pm").slideToggle( "slow", "linear" );
 });
 
 $("#Saturday2pm").click(function() {
-	$("#ToursSaturday2pm").slideToggle( "slow", "linear" );
+	$("#TourSaturday, #ToursSaturday2pm").slideToggle( "slow", "linear" );
 });
 
 $("#Saturday3pm").click(function() {
@@ -41,11 +41,11 @@ $("#Saturday10pm").click(function() {
 });
 
 $("#Sunday12am").click(function() {
-	$("#ToursSunday12am").slideToggle( "slow", "linear" );
+	$("#TourSunday, #ToursSunday12am").slideToggle( "slow", "linear" );
 });
 
 $("#Sunday4am").click(function() {
-	$("#ToursSunday4am").slideToggle( "slow", "linear" );
+	$("#TourSunday, #ToursSunday4am").slideToggle( "slow", "linear" );
 });
 
 $("#Sunday6am").click(function() {
