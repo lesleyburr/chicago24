@@ -71,3 +71,27 @@ $("#Sunday11am").click(function() {
 $("#Sunday12pm").click(function() {
 	$("#TourSunday, #ToursSunday12pm").slideToggle( "slow", "linear" );
 });
+
+// 
+// Filter Tours by Type
+// 
+	// SHOW Tours ON CLICK
+	// HIDE Tours ON ClICK
+
+$("#ToursScream").click(function() {
+	$(".tour--scream").slideToggle( "slow", "linear" );
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
