@@ -17,27 +17,27 @@ $("#Saturday2pm").click(function() {
 });
 
 $("#Saturday3pm").click(function() {
-	$("#ToursSaturday3pm").slideToggle( "slow", "linear" );
+	$("#TourSaturday, #ToursSaturday3pm").slideToggle( "slow", "linear" );
 });
 
 $("#Saturday4pm").click(function() {
-	$("#ToursSaturday4pm").slideToggle( "slow", "linear" );
+	$("#TourSaturday, #ToursSaturday4pm").slideToggle( "slow", "linear" );
 });
 
 $("#Saturday5pm").click(function() {
-	$("#ToursSaturday5pm").slideToggle( "slow", "linear" );
+	$("#TourSaturday, #ToursSaturday5pm").slideToggle( "slow", "linear" );
 });
 
 $("#Saturday6pm").click(function() {
-	$("#ToursSaturday6pm").slideToggle( "slow", "linear" );
+	$("#TourSaturday, #ToursSaturday6pm").slideToggle( "slow", "linear" );
 });
 
 $("#Saturday8pm").click(function() {
-	$("#ToursSaturday8pm").slideToggle( "slow", "linear" );
+	$("#TourSaturday, #ToursSaturday8pm").slideToggle( "slow", "linear" );
 });
 
 $("#Saturday10pm").click(function() {
-	$("#ToursSaturday10pm").slideToggle( "slow", "linear" );
+	$("#TourSaturday, #ToursSaturday10pm").slideToggle( "slow", "linear" );
 });
 
 $("#Sunday12am").click(function() {
@@ -49,25 +49,25 @@ $("#Sunday4am").click(function() {
 });
 
 $("#Sunday6am").click(function() {
-	$("#ToursSunday6am").slideToggle( "slow", "linear" );
+	$("#TourSunday, #ToursSunday6am").slideToggle( "slow", "linear" );
 });
 
 $("#Sunday7am").click(function() {
-	$("#ToursSunday7am").slideToggle( "slow", "linear" );
+	$("#TourSunday, #ToursSunday7am").slideToggle( "slow", "linear" );
 });
 
 $("#Sunday9am").click(function() {
-	$("#ToursSunday9am").slideToggle( "slow", "linear" );
+	$("#TourSunday, #ToursSunday9am").slideToggle( "slow", "linear" );
 });
 
 $("#Sunday10am").click(function() {
-	$("#ToursSunday10am").slideToggle( "slow", "linear" );
+	$("#TourSunday, #ToursSunday10am").slideToggle( "slow", "linear" );
 });
 
 $("#Sunday11am").click(function() {
-	$("#ToursSunday11am").slideToggle( "slow", "linear" );
+	$("#TourSunday, #ToursSunday11am").slideToggle( "slow", "linear" );
 });
 
 $("#Sunday12pm").click(function() {
-	$("#ToursSunday12pm").slideToggle( "slow", "linear" );
+	$("#TourSunday, #ToursSunday12pm").slideToggle( "slow", "linear" );
 });
