@@ -36,6 +36,9 @@ ul {
 	float: right;
 }
 
+.tour-package__menu li {
+	display: inline;
+}
 
 /*// Small screens*/
 @media only screen { 
