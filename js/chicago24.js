@@ -5,12 +5,15 @@
 	// HIDE Tours ON ClICK
 
 $("#Saturday12pm").click(function() {
-	if($("[id^=ToursSaturday]").is("[style='display: block;']") {
-		$("[id^=ToursSaturday]").slideUp( "slow", "linear" );
-	else {
-		$("#ToursSaturday12pm").slideToggle( "slow", "linear" );
-	});
+	if ($("[id^=ToursSaturday]").is(":visible")) {
+		$("[id^=ToursSaturday]:not(#ToursSaturday12pm)").hide();
+
+	}
+
+	$("#ToursSaturday12pm").slideToggle( "slow", "linear" );
 });
+
+
 
 $("#Saturday1pm").click(function() {
 	$("#ToursSaturday1pm").slideToggle( "slow", "linear" );
