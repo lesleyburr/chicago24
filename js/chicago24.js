@@ -85,72 +85,72 @@
 	});
 
 	$("#Sunday12am").click(function() {
-		if ($("[id^=ToursSaturday]").is(":visible")) {
-			$("[id^=ToursSaturday]:not(#ToursSunday12am)").hide(true);
+		if ($("[id^=ToursSunday]").is(":visible")) {
+			$("[id^=ToursSunday]:not(#ToursSunday12am)").hide(true);
 		}
 
 		$("#ToursSunday12am").slideToggle( "slow", "linear" );
 	});
 
 	$("#Sunday12pm").click(function() {
-		if ($("[id^=ToursSaturday]").is(":visible")) {
-			$("[id^=ToursSaturday]:not(#ToursSunday12am)").hide(true);
+		if ($("[id^=ToursSunday]").is(":visible")) {
+			$("[id^=ToursSunday]:not(#ToursSunday12am)").hide(true);
 		}
 
 		$("#ToursSunday12am").slideToggle( "slow", "linear" );
 	});
 
 	$("#Sunday4am").click(function() {
-		if ($("[id^=ToursSaturday]").is(":visible")) {
-			$("[id^=ToursSaturday]:not(#ToursSunday4am)").hide(true);
+		if ($("[id^=ToursSunday]").is(":visible")) {
+			$("[id^=ToursSunday]:not(#ToursSunday4am)").hide(true);
 		}
 
 		$("#ToursSunday4am").slideToggle( "slow", "linear" );
 	});
 
 	$("#Sunday6am").click(function() {
-		if ($("[id^=ToursSaturday]").is(":visible")) {
-			$("[id^=ToursSaturday]:not(#ToursSunday6am)").hide(true);
+		if ($("[id^=ToursSunday]").is(":visible")) {
+			$("[id^=ToursSunday]:not(#ToursSunday6am)").hide(true);
 		}
 
 		$("#ToursSunday6am").slideToggle( "slow", "linear" );
 	});
 
 	$("#Sunday7am").click(function() {
-		if ($("[id^=ToursSaturday]").is(":visible")) {
-			$("[id^=ToursSaturday]:not(#ToursSunday7am)").hide(true);
+		if ($("[id^=ToursSunday]").is(":visible")) {
+			$("[id^=ToursSunday]:not(#ToursSunday7am)").hide(true);
 		}
 
 		$("#ToursSunday7am").slideToggle( "slow", "linear" );
 	});
 
 	$("#Sunday9am").click(function() {
-		if ($("[id^=ToursSaturday]").is(":visible")) {
-			$("[id^=ToursSaturday]:not(#ToursSunday9am)").hide(true);
+		if ($("[id^=ToursSunday]").is(":visible")) {
+			$("[id^=ToursSunday]:not(#ToursSunday9am)").hide(true);
 		}
 
 		$("#ToursSunday9am").slideToggle( "slow", "linear" );
 	});
 
 	$("#Sunday10am").click(function() {
-		if ($("[id^=ToursSaturday]").is(":visible")) {
-			$("[id^=ToursSaturday]:not(#ToursSunday10am)").hide(true);
+		if ($("[id^=ToursSunday]").is(":visible")) {
+			$("[id^=ToursSunday]:not(#ToursSunday10am)").hide(true);
 		}
 
 		$("#ToursSunday10am").slideToggle( "slow", "linear" );
 	});
 
 	$("#Sunday11am").click(function() {
-		if ($("[id^=ToursSaturday]").is(":visible")) {
-			$("[id^=ToursSaturday]:not(#ToursSunday11am)").hide(true);
+		if ($("[id^=ToursSunday]").is(":visible")) {
+			$("[id^=ToursSunday]:not(#ToursSunday11am)").hide(true);
 		}
 
 		$("#ToursSunday11am").slideToggle( "slow", "linear" );
 	});
 
 	$("#Sunday12pm").click(function() {
-		if ($("[id^=ToursSaturday]").is(":visible")) {
-			$("[id^=ToursSaturday]:not(#ToursSunday12pm)").hide(true);
+		if ($("[id^=ToursSunday]").is(":visible")) {
+			$("[id^=ToursSunday]:not(#ToursSunday12pm)").hide(true);
 		}
 
 		$("#ToursSunday12pm").slideToggle( "slow", "linear" );
