@@ -1,8 +1,9 @@
 // 
 // Tour schedule
 // 
-	// SHOW Tours ON CLICK
-	// HIDE Tours ON ClICK
+	// CHECK for visible Tours
+	// IF Tour is visible THEN HIDE all but SELF
+	// SHOW or HIDE Tour
 	$("#Saturday12pm").click(function() {
 		if ($("[id^=ToursSaturday]").is(":visible")) {
 			$("[id^=ToursSaturday]:not(#ToursSaturday12pm)").hide(true);
