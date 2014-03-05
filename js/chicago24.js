@@ -7,7 +7,6 @@
 $("#Saturday12pm").click(function() {
 	if ($("[id^=ToursSaturday]").is(":visible")) {
 		$("[id^=ToursSaturday]:not(#ToursSaturday12pm)").hide();
-
 	}
 
 	$("#ToursSaturday12pm").slideToggle( "slow", "linear" );
