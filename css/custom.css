@@ -47,10 +47,6 @@ ul {
 @media only screen and (max-width: 40em) { 
 	.hide--small {
 		display: none;
-	}
-
-	.time--small {
-		display: block;
 	}	
 
 	.schedule__date {
