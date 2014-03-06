@@ -32,9 +32,9 @@ ul {
 	display: none;
 }
 
-.ad--tour-packages {
+/*.ad--tour-packages {
 	float: right;
-}
+}*/
 
 .tour-package__menu li {
 	display: inline;
