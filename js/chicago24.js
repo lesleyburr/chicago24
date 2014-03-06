@@ -1,6 +1,7 @@
 // 
-// Tour schedule
+// TOUR SCHEDULE 
 // 
+	// LARGE SCREEN and SMALL SCREEN MENUS
 	// CHECK for visible Tours
 	// IF Tour is visible THEN HIDE all but SELF
 	// SHOW or HIDE Tour
