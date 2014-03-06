@@ -49,6 +49,10 @@ ul {
 		display: none;
 	}	
 
+	.time--small {
+		display: block;
+	}
+
 	.schedule__date {
 		display: inline;
 	}
