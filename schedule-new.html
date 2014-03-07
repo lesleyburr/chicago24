@@ -83,8 +83,8 @@
   <h1>Saturday Tours</h1>
   </header>
     <!-- ********** 12:00 p.m. ********** -->
-    <a name="Saturday12pm" data-magellan-destination="Saturday12pm"></a>
-    <h2 class="schedule__time" id="Saturday12pm">12:00 p.m.</h2>
+    <a name="Saturday12pm"></a>
+    <h2 class="schedule__time" id="Saturday12pm" data-magellan-destination="Saturday12pm">12:00 p.m.</h2>
       <ul class="tours"> 
         <li class="tour tour--exercise tour--walk">
           <ul class="small-block-grid-1 large-block-grid-3 tour__info">
@@ -120,8 +120,8 @@
       </ul>
 
     <!-- ********** 1:00 p.m. ********** -->
-    <a name="Saturday1pm" data-magellan-destination="Saturday1pm"></a>
-    <h2 class="schedule__time" id="Saturday1pm">1:00 p.m.</h2>
+    <a name="Saturday1pm"></a>
+    <h2 class="schedule__time" id="Saturday1pm" data-magellan-destination="Saturday1pm">1:00 p.m.</h2>
       <ul class="tours">
         <li class="tour--ride tour--train">
           <ul class="small-block-grid-1 large-block-grid-3 tour__info">
@@ -158,8 +158,8 @@
       </ul>
 
     <!-- ********** 2:00 p.m. ********** -->
-    <a name="Saturday2pm" data-magellan-destination="Saturday2pm"></a>
-    <h2 class="schedule__time" id="Saturday2pm">2:00 p.m.</h2>
+    <a name="Saturday2pm"></a>
+    <h2 class="schedule__time" id="Saturday2pm" data-magellan-destination="Saturday2pm">2:00 p.m.</h2>
       <ul class="tours">
         <li class="tour--exercise tour--walk">
           <ul class="small-block-grid-1 large-block-grid-3 tour__info">
@@ -212,8 +212,8 @@
       </ul>
 
     <!-- ********** 3:00 p.m. ********** -->
-    <a name="Saturday3pm" data-magellan-destination="Saturday3pm"></a>
-    <h2 class="schedule__time" id="Saturday3pm">3:00 p.m.</h2>
+    <a name="Saturday3pm"></a>
+    <h2 class="schedule__time" id="Saturday3pm" data-magellan-destination="Saturday3pm">3:00 p.m.</h2>
       <ul class="tours">
         <li class="tour--exercise tour--walk">
           <ul class="small-block-grid-1 large-block-grid-3 tour__info">
@@ -726,7 +726,14 @@
     <script src="js/foundation.min.js"></script>
     <script type="text/javascript" src="js/chicago24.js"></script>
     <script>
-      $(document).foundation();
+      $(document).foundation({
+        // how many pixels until the magellan bar sticks, 0 = auto
+        threshold: 0,
+        // pixels from the top of destination for it to be considered active
+        destination_threshold: 0,
+        // calculation throttling to increase framerate
+        throttle_delay: 50 
+      });
     </script>
   </body>
 </html>
