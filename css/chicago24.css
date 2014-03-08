@@ -1,16 +1,24 @@
+/* BASE */
 ul {
 	list-style-type: none;
 }
 
-.header__logo--museum {
+/* BLOCKS */
+.logo--museum {
 	padding-top: 3rem;
-	width: 45%;
+	width: 100%;
 }
 
-.header__logo--chicago24 {
+.logo--chicago24 {
 	padding-bottom: 3rem;
 	padding-top: 4rem;
 	width: 70%;
+}
+
+.logo--chicago24--home {
+	padding-bottom: 2rem;
+	padding-top: 4rem;
+	width: 100%;
 }
 
 .navigation__main {
@@ -41,13 +49,13 @@ ul {
 }
 
 /*// Small screens*/
-@media only screen { 
+@media only screen {
 } /* Define mobile styles */
 
-@media only screen and (max-width: 40em) { 
+@media only screen and (max-width: 40em) {
 	.hide--small {
 		display: none;
-	}	
+	}
 
 	.time--small {
 		display: block;
@@ -60,46 +68,46 @@ ul {
 } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 
 /*// Medium screens*/
-@media only screen and (min-width: 40.063em) { 
+@media only screen and (min-width: 40.063em) {
 	.hide--large {
 		display: none;
 	}
 } /* min-width 641px, medium screens */
 
-@media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
 	.hide--large {
 		display: none;
 	}
 } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
 
 /*// Large screens*/
-@media only screen and (min-width: 64.063em) { 
+@media only screen and (min-width: 64.063em) {
 	.hide--large {
 		display: none;
 	}
 } /* min-width 1025px, large screens */
 
-@media only screen and (min-width: 64.063em) and (max-width: 90em) { 
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {
 	.hide--large {
 		display: none;
 	}
 } /* min-width 1024px and max-width 1440px, use when QAing large screen-only issues */
 
 /*// XLarge screens*/
-@media only screen and (min-width: 90.063em) { 
+@media only screen and (min-width: 90.063em) {
 	.hide--large {
 		display: none;
 	}
 } /* min-width 1441px, xlarge screens */
 
-@media only screen and (min-width: 90.063em) and (max-width: 120em) { 
+@media only screen and (min-width: 90.063em) and (max-width: 120em) {
 	.hide--large {
 		display: none;
 	}
 } /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
 
 /*// XXLarge screens*/
-@media only screen and (min-width: 120.063em) { 
+@media only screen and (min-width: 120.063em) {
 	.hide--large {
 		display: none;
 	}

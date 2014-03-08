@@ -1,6 +1,6 @@
-// 
-// TOUR SCHEDULE 
-// 
+//
+// TOUR SCHEDULE
+//
 	// LARGE SCREEN and SMALL SCREEN MENUS
 	// CHECK for visible Tours
 	// IF Tour is visible THEN HIDE all but SELF
@@ -150,9 +150,9 @@
 	// });
 
 
-// 
+//
 // Filter Tours by Type
-// 
+//
 	// SHOW Tours ON CLICK
 	// HIDE Tours ON ClICK
 
