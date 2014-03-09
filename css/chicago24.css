@@ -82,12 +82,11 @@ html .home {
 }
 
 html .schedule {
-/*  background: url(../img/eg-pilsen.jpg) no-repeat center center fixed;
+  background: url(../img/eg-chinatown.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;*/
-  background-color: #000;
+  background-size: cover;
 }
 
 /*// Small screens*/
@@ -103,9 +102,14 @@ html .schedule {
 		margin-top: 3em;
 	}
 
-	.introduction, .schedule--saturday, .schedule--sunday {
+	.document__header, .introduction, .schedule--saturday, .schedule--sunday {
 		background-color: hsla(0, 100%, 100%, .9);
 		padding: 1em 1em 1em 1em;
+	}
+
+	.navigation--main__item {
+		display: block;
+		width: 100%;
 	}
 
 	.introduction__title {
