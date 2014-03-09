@@ -1,6 +1,12 @@
 //
 // TOUR SCHEDULE
 //
+
+$("#Saturday12pmGoldCoast").click(function() {
+		$("#Saturday12pmGoldCoastDescription, #Saturday12pmGoldCoastInfo").slideToggle( "slow", "linear" );
+	});
+
+
 	// LARGE SCREEN and SMALL SCREEN MENUS
 	// CHECK for visible Tours
 	// IF Tour is visible THEN HIDE all but SELF
