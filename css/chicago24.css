@@ -121,7 +121,7 @@ html .schedule {
 	color: hsla(39, 100%, 50%, 1);
 	font-size: 1.75rem;
 	font-weight: 500;
-	padding: .25rem;
+	padding: .25rem .25rem .25rem 1rem;
 }
 
 /*.tours > li:nth-child(even) {
