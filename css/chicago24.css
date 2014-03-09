@@ -6,13 +6,25 @@ ul {
 
 p {
 	font-size: 1.25rem;
+	line-height: 1.5;
 }
 
 /* BLOCKS */
-.document__header, .introduction, .schedule--saturday, .schedule--sunday {
+.introduction, .document--schedule {
 	background-color: #fff;
 	background-color: hsla(0, 100%, 100%, .9);
-	padding: 3em 5em 5em 5em;
+	padding: 5em;
+}
+
+.document__header {
+
+}
+
+.document__title {
+	font-size: 3rem;
+	padding: .25rem 0 .5rem 0;
+	text-transform: capitalize;
+
 }
 
 .navigation--main__item{
@@ -47,8 +59,7 @@ p {
 }
 
 .logo--chicago24 {
-/*	padding-bottom: 3rem;
-	padding-top: 1rem;*/
+	padding-top: 1em;
 	width: 100%;
 }
 
@@ -79,6 +90,7 @@ html .home {
 	font-weight: 400;
 }
 
+/* TOUR SCHEDULE */
 html .schedule {
   background: url(../img/eg-chinatown.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -86,6 +98,23 @@ html .schedule {
   -o-background-size: cover;
   background-size: cover;
 }
+
+.schedule__date {
+	background-color: #505050;
+	background-color: hsla(0, 0%, 30%, .9);
+}
+
+.schedule__date__day {
+	color: Orange;
+	color: hsla(39, 100%, 50%, 1);
+	font-size: 2rem;
+	font-weight: 500;
+	padding: 1rem;
+	text-transform: uppercase;
+}
+
+
+
 
 /*// Small screens*/
 @media only screen {
@@ -100,7 +129,7 @@ html .schedule {
 		margin-top: 3em;
 	}
 
-	.document__header, .introduction, .schedule--saturday, .schedule--sunday {
+ .introduction, .document--schedule {
 		background-color: hsla(0, 100%, 100%, .9);
 		padding: 1em 1em 1em 1em;
 	}
@@ -112,6 +141,7 @@ html .schedule {
 
 	.navigation--main__item {
 		display: block;
+		margin-bottom: .5em;
 		width: 100%;
 	}
 
@@ -135,9 +165,9 @@ html .schedule {
 		display: block;
 	}
 
-	.schedule__date {
+/*	.schedule__date {
 		display: inline;
-	}
+	}*/
 
 } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 
