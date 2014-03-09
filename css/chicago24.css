@@ -1,4 +1,5 @@
 /* BASE */
+
 ul {
 	list-style-type: none;
 	margin: 0;
@@ -13,11 +14,7 @@ p {
 .introduction, .document--schedule {
 	background-color: #fff;
 	background-color: hsla(0, 100%, 100%, .9);
-	padding: 5em;
-}
-
-.document__header {
-
+	padding: 5rem;
 }
 
 .document__title {
@@ -30,14 +27,14 @@ p {
 .navigation--main__item{
 	background-color: Gainsboro;
 	background-color: hsla(210, 14%, 53%, .25);
-	border-radius: .25em;
+	border-radius: .25rem;
 	display: inline-block;
-	font-size: .85em;
+	font-size: .85rem;
 	font-weight: 500;
-	padding: .5em;
+	padding: .5rem;
 	text-align: center;
 	text-transform: uppercase;
-	width: 10em;
+	width: 8.5rem;
 }
 
 .navigation--main__item:hover{
@@ -48,7 +45,7 @@ p {
 .navigation--main__item--active, .navigation--main__item--active:hover{
 	background-color: Orange;
 	background-color: hsla(39, 100%, 50%, .65);
-	border-radius: .25em;
+	border-radius: .25rem;
 	color: #fff;
 	text-shadow: 2px 2px 2px hsla(39, 100%, 40%, .65);
 }
@@ -59,7 +56,7 @@ p {
 }
 
 .logo--chicago24 {
-	padding-top: 1em;
+	padding-top: 1rem;
 	width: 100%;
 }
 
@@ -102,6 +99,7 @@ html .schedule {
 .schedule__date {
 	background-color: #505050;
 	background-color: hsla(0, 0%, 30%, .9);
+	border-radius: .25em;
 }
 
 .schedule__date__day {
@@ -113,42 +111,75 @@ html .schedule {
 	text-transform: uppercase;
 }
 
+.schedule__time {
+	background-color: LightSkyBlue;
+	background-color: hsla(203, 92%, 75%, .25);
+	border-radius: .25em;
+	color: Orange;
+	color: hsla(39, 100%, 50%, 1);
+	font-size: 1.75rem;
+	font-weight: 500;
+	padding: .25rem;
+}
 
+/*.tours > li:nth-child(even) {
+	background-color: LightSkyBlue;
+	background-color: hsla(203, 92%, 75%, .25);
+}
+
+.tours > li:nth-child(odd) {
+	background-color: LightSkyBlue;
+	background-color: hsla(203, 92%, 75%, .65);
+}*/
+
+.tour__title {
+	font-size: 1.5rem;
+}
+
+.tour__description {
+	font-size: 1rem;
+}
+
+
+/* FOUNDATION OVERRIDES */
+[class*="block-grid-"] > li {
+	padding: 0;
+}
 
 
 /*// Small screens*/
 @media only screen {
 } /* Define mobile styles */
 
-@media only screen and (max-width: 40em) {
+@media only screen and (max-width: 40rem) {
 	.hide--small {
 		display: none;
 	}
 
 	.introduction{
-		margin-top: 3em;
+		margin-top: 3rem;
 	}
 
  .introduction, .document--schedule {
 		background-color: hsla(0, 100%, 100%, .9);
-		padding: 1em 1em 1em 1em;
+		padding: 1rem 1rem 1rem 1rem;
 	}
 
 	.navigation--main {
-		margin-top: 2em;
+		margin-top: 2rem;
 
 	}
 
 	.navigation--main__item {
 		display: block;
-		margin-bottom: .5em;
+		margin-bottom: .5rem;
 		width: 100%;
 	}
 
 	.introduction__title {
-		font-size: 1.35em;
+		font-size: 1.35rem;
 		font-weight: 500;
-		margin-top: 0em;
+		margin-top: 0rem;
 		margin-bottom: 0;
 	}
 
@@ -172,46 +203,46 @@ html .schedule {
 } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 
 /*// Medium screens*/
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 40.063rem) {
 	.hide--large {
 		display: none;
 	}
 } /* min-width 641px, medium screens */
 
-@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+@media only screen and (min-width: 40.063rem) and (max-width: 64rem) {
 	.hide--large {
 		display: none;
 	}
 } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
 
 /*// Large screens*/
-@media only screen and (min-width: 64.063em) {
+@media only screen and (min-width: 64.063rem) {
 	.hide--large {
 		display: none;
 	}
 } /* min-width 1025px, large screens */
 
-@media only screen and (min-width: 64.063em) and (max-width: 90em) {
+@media only screen and (min-width: 64.063rem) and (max-width: 90rem) {
 	.hide--large {
 		display: none;
 	}
 } /* min-width 1024px and max-width 1440px, use when QAing large screen-only issues */
 
 /*// XLarge screens*/
-@media only screen and (min-width: 90.063em) {
+@media only screen and (min-width: 90.063rem) {
 	.hide--large {
 		display: none;
 	}
 } /* min-width 1441px, xlarge screens */
 
-@media only screen and (min-width: 90.063em) and (max-width: 120em) {
+@media only screen and (min-width: 90.063rem) and (max-width: 120rem) {
 	.hide--large {
 		display: none;
 	}
 } /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
 
 /*// XXLarge screens*/
-@media only screen and (min-width: 120.063em) {
+@media only screen and (min-width: 120.063rem) {
 	.hide--large {
 		display: none;
 	}
