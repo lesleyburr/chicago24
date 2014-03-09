@@ -8,16 +8,15 @@ p {
 }
 
 /* BLOCKS */
-/*.navigation__main {
-	margin: 0 auto;
+.navigation--main {
 	padding-top: 2rem;
 	text-align: right;
 }
 
-.navigation__main li{
+.navigation--main__item{
 	display: inline;
 	padding-right: 3rem;
-}*/
+}
 
 .logo--museum {
 	padding-top: 2rem;
@@ -26,13 +25,22 @@ p {
 
 .logo--chicago24 {
 	padding-bottom: 3rem;
-	padding-top: 4rem;
-	width: 70%;
+	padding-top: 1rem;
 }
 
 .logo--chicago24--home {
 	padding-bottom: 2rem;
 	padding-top: 3rem;
+}
+
+.button--see-schedule {
+	box-shadow: 1px 3px 2px #999;
+	text-transform: uppercase;
+	transition: box-shadow 0.5s ease;
+}
+
+.button--see-schedule:hover {
+	box-shadow: 0 0 0 #999;
 }
 
 html .home {
@@ -43,27 +51,14 @@ html .home {
   background-size: cover;
 }
 
-.introduction {
+.introduction, .schedule--saturday, .schedule--sunday {
 	background-color: #fff;
 	background-color: hsla(0, 100%, 100%, .9);
-	padding: 5%;
+	padding: 1em 5em 5em 5em;
 }
 
 .introduction__title {
 	font-weight: 400;
-}
-
-
-/*.tour__filter {
-	display: inline;
-}*/
-
-/*.ad--tour-packages {
-	float: right;
-}*/
-
-.tour-package__menu li {
-	display: inline;
 }
 
 /*// Small screens*/
@@ -73,6 +68,16 @@ html .home {
 @media only screen and (max-width: 40em) {
 	.hide--small {
 		display: none;
+	}
+
+	.introduction, .schedule--saturday, .schedule--sunday {
+		background-color: hsla(0, 100%, 100%, .9);
+		padding: 1em 1em 1em 1em;
+	}
+
+	.logo--chicago24--home {
+		padding-bottom: 1rem;
+		padding-top: 2rem;
 	}
 
 	.time--small {
