@@ -151,6 +151,14 @@ html .schedule {
 	font-size: 1rem;
 }
 
+.tour__description__excerpt {
+	margin-bottom: 0;
+}
+
+.tour__description__read-more {
+	/*display: inline;*/
+}
+
 
 /* FOUNDATION OVERRIDES */
 [class*="block-grid-"] > li {
