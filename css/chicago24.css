@@ -8,24 +8,50 @@ p {
 }
 
 /* BLOCKS */
+.document__header, .introduction, .schedule--saturday, .schedule--sunday {
+	background-color: #fff;
+	background-color: hsla(0, 100%, 100%, .9);
+	padding: 1em 5em 5em 5em;
+}
+
 .navigation--main {
-	padding-top: 2rem;
+	/*padding-top: 2rem;*/
 	text-align: right;
 }
 
 .navigation--main__item{
-	display: inline;
-	padding-right: 3rem;
+	display: inline-block;
+	font-size: .85em;
+	font-weight: 500;
+	padding: .5em;
+	text-align: center;
+	text-transform: uppercase;
+	width: 10em;
+}
+
+.navigation--main__item:hover{
+	background-color: Orange;
+	background-color: hsla(39, 100%, 50%, .35);
+	border-radius: .25em;
+}
+
+.navigation--main__item--active{
+	background-color: Orange;
+	background-color: hsla(39, 100%, 50%, .65);
+	border-radius: .25em;
+	color: #fff;
+	text-shadow: 2px 2px 2px hsla(39, 100%, 40%, .65);
 }
 
 .logo--museum {
-	padding-top: 2rem;
+/*	padding-top: 2rem;*/
 	width: 100%;
 }
 
 .logo--chicago24 {
-	padding-bottom: 3rem;
-	padding-top: 1rem;
+/*	padding-bottom: 3rem;
+	padding-top: 1rem;*/
+	width: 100%;
 }
 
 .logo--chicago24--home {
@@ -51,14 +77,17 @@ html .home {
   background-size: cover;
 }
 
-.introduction, .schedule--saturday, .schedule--sunday {
-	background-color: #fff;
-	background-color: hsla(0, 100%, 100%, .9);
-	padding: 1em 5em 5em 5em;
-}
-
 .introduction__title {
 	font-weight: 400;
+}
+
+html .schedule {
+/*  background: url(../img/eg-pilsen.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+  background-color: #000;
 }
 
 /*// Small screens*/
