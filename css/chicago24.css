@@ -1,6 +1,7 @@
 /* BASE */
 ul {
 	list-style-type: none;
+	margin: 0;
 }
 
 p {
@@ -11,15 +12,13 @@ p {
 .document__header, .introduction, .schedule--saturday, .schedule--sunday {
 	background-color: #fff;
 	background-color: hsla(0, 100%, 100%, .9);
-	padding: 1em 5em 5em 5em;
-}
-
-.navigation--main {
-	/*padding-top: 2rem;*/
-	text-align: right;
+	padding: 3em 5em 5em 5em;
 }
 
 .navigation--main__item{
+	background-color: Gainsboro;
+	background-color: hsla(210, 14%, 53%, .25);
+	border-radius: .25em;
 	display: inline-block;
 	font-size: .85em;
 	font-weight: 500;
@@ -31,11 +30,10 @@ p {
 
 .navigation--main__item:hover{
 	background-color: Orange;
-	background-color: hsla(39, 100%, 50%, .35);
-	border-radius: .25em;
+	background-color: hsla(65, 100%, 50%, .45);
 }
 
-.navigation--main__item--active{
+.navigation--main__item--active, .navigation--main__item--active:hover{
 	background-color: Orange;
 	background-color: hsla(39, 100%, 50%, .65);
 	border-radius: .25em;
@@ -105,6 +103,11 @@ html .schedule {
 	.document__header, .introduction, .schedule--saturday, .schedule--sunday {
 		background-color: hsla(0, 100%, 100%, .9);
 		padding: 1em 1em 1em 1em;
+	}
+
+	.navigation--main {
+		margin-top: 2em;
+
 	}
 
 	.navigation--main__item {
