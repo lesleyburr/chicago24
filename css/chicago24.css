@@ -99,15 +99,30 @@ html .schedule {
 		display: none;
 	}
 
+	.introduction{
+		margin-top: 3em;
+	}
+
 	.introduction, .schedule--saturday, .schedule--sunday {
 		background-color: hsla(0, 100%, 100%, .9);
 		padding: 1em 1em 1em 1em;
+	}
+
+	.introduction__title {
+		font-size: 1.35em;
+		font-weight: 500;
+		margin-top: 0em;
+		margin-bottom: 0;
 	}
 
 	.logo--chicago24--home {
 		padding-bottom: 1rem;
 		padding-top: 2rem;
 	}
+
+	.button--see-schedule {
+		width: 100%;
+}
 
 	.time--small {
 		display: block;
