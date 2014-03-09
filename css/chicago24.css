@@ -90,12 +90,16 @@ html .home {
 }
 
 /* TOUR SCHEDULE */
-html .schedule {
+html .document--tour-schedule {
   background: url(../img/eg-chinatown.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.schedule {
+	/*background: #fff;*/
 }
 
 .schedule__date {
@@ -114,7 +118,7 @@ html .schedule {
 }
 
 .schedule__time {
-	background-color: LightSkyBlue;
+	background-color: #ded;
 	background-color: hsla(203, 92%, 75%, .25);
 	border-radius: .25em;
 	color: Orange;
