@@ -238,9 +238,12 @@ html .document--plan {
 		width: 100%;
 }
 
-	.time--small {
+.tour__title, .museum-info__title {
+	font-size: 2rem;
+}
+/*	.time--small {
 		display: block;
-	}
+	}*/
 
 /*	.schedule__date {
 		display: inline;
