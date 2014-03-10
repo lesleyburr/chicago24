@@ -234,6 +234,11 @@ html .document--packages {
 	margin-bottom: 0;
 }
 
+.alert-box.info {
+	background-color: Gainsboro;
+	background-color: hsla(210, 12%, 53%, .35);
+	border-color: #ccc;
+}
 
 /*// Small screens*/
 @media only screen {
