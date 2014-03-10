@@ -102,6 +102,10 @@ html .home {
   background-size: cover;
 }
 
+.introduction {
+	margin-top: 3rem;
+}
+
 .introduction__title {
 	font-weight: 400;
 }
@@ -249,10 +253,6 @@ html .document--packages {
 		display: none;
 	}
 
-	.introduction{
-		margin-top: 3rem;
-	}
-
  	.introduction, .document--schedule {
 		background-color: hsla(0, 100%, 100%, .9);
 		padding: 1rem 1rem 1rem 1rem;
@@ -286,9 +286,9 @@ html .document--packages {
 		width: 100%;
 }
 
-.tour__title, .museum-info__title {
-	font-size: 2rem;
-}
+	.tour__title, .museum-info__title {
+		font-size: 2rem;
+	}
 
 
 } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
