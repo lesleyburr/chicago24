@@ -10,6 +10,10 @@ p {
 	line-height: 1.5;
 }
 
+small {
+	display: block;
+}
+
 html, body {
 	min-height: 100%;
 }
@@ -23,13 +27,6 @@ html, body {
 	background-color: #fff;
 	background-color: hsla(0, 100%, 100%, .9);
 	padding: 5rem;
-	min-height: 100%;
-}
-
-.introduction__footer {
-	background-color: #fff;
-	background-color: hsla(0, 100%, 100%, .9);
-	padding: 0 5rem 5rem 5rem;
 	min-height: 100%;
 }
 
@@ -105,9 +102,6 @@ html, body {
 	width: 100%;
 }
 
-.logo--sponsor {
-	padding-top: 1rem;
-}
 
 .logo--chicago24--home {
 	padding-bottom: 2rem;
@@ -142,6 +136,13 @@ html .home {
 	color: Orange;
 	color: hsla(35, 100%, 50%, 1);
 	font-weight: 400;
+}
+
+.introduction__footer {
+	background-color: #fff;
+	background-color: hsla(0, 100%, 100%, .9);
+	padding: 0 5rem 1rem 5rem;
+	min-height: 100%;
 }
 
 /* TOUR SCHEDULE */
@@ -314,6 +315,11 @@ html .document--packages {
 } /* Define mobile styles */
 
 @media only screen and (max-width: 40rem) {
+
+	small {
+		display: block;
+	}
+
 	.hide--small {
 		display: none;
 	}
