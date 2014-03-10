@@ -155,6 +155,19 @@ html .document--packages {
 	text-transform: uppercase;
 }
 
+.schedule__date__day, .tours__count {
+	display: inline-block;
+}
+
+.tours__count {
+	color: Orange;
+	color: hsla(39, 100%, 50%, 1);
+	font-size: 1rem;
+	font-weight: 500;
+	padding: 1rem;
+	text-transform: uppercase;
+}
+
 .schedule__time, .plan-your-day__address, .plan-your-day__parking, .plan-your-day__accessibility, .plan-your-day__contact, .plan-your-day__tour-info, .package__tour {
 	background-color: #ded;
 	background-color: hsla(203, 92%, 75%, .25);
