@@ -259,8 +259,9 @@ html .document--packages {
 }
 
 .alert-box.info {
-	background-color: Orange;
-	background-color: hsla(65, 90%, 60%, .65);
+	background-color: #fff;
+	background-color: hsla(0, 100%, 100%, .9);
+	border-radius: .25rem;
 	border: none;
 	/*background-color: Gainsboro;
 	background-color: hsla(210, 12%, 53%, .35);*/
