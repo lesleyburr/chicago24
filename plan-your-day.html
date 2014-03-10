@@ -6,81 +6,146 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Attend Chicago 24</title>
     <link rel="stylesheet" href="css/foundation.css" />
-    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/chicago24.css">
     <script src="js/vendor/modernizr.js"></script>
   </head>
+  <body class="document--tour-schedule">
 
-  <body>
     <div class="row">
       <div class="large-12 columns">
-
-      <nav class="navigation__main">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="schedule.html">Complete Schedule</a></li>
-          <li><a href="tour-packages.html">Tour Packages</a></li>
-          <li><a href="#" class="active">Plan Your Day</a></li>
-        </ul>
-      </nav>
-
-      <img src="img/logo-chm.png" class="document__logo--museum" alt="Chicago History Museum logo">
-
-      <img src="img/logo-chicago24.png" class="document__logo--chicago24" alt="Chicago 24 logo">
       </div>
     </div>
 
 
-  <main>
-    
+<div class="row">
+<div class="large-12 medium-12 columns">
+<section class="document--plan-your-day">
+  <section class="document__header">
     <div class="row">
-      <div class="large-8 medium-8 columns">
-          <header>
-            <h1>Plan Your Day</h1>
-          </header>
+    <div class="large-5 columns">
+      <header>
+        <img src="img/logo-chm.png" class="logo--museum" alt="Chicago History Museum">
+        <img src="img/logo-chicago24.png" class="logo--chicago24" alt="The Chicago 24 Event">
+        <h1 class="document__title hide--small">Plan Your Day</h1>
+      </header>
+    </div>
+    <div class="large-7 columns">
+      <nav class="navigation--main">
+        <ul>
+          <li class="navigation--main__item"><a href="index.html">Home</a></li>
+          <li class="navigation--main__item"><a href="schedule.html">Tour Schedule</a></li>
+          <li class="navigation--main__item"><a href="tour-packages.html">Tour Packages</a></li>
+          <li class="navigation--main__item navigation--main__item--active">Plan Your Day</li>
+        </ul>
+      </nav>
+    </div>
+    </div>
+  </section>
+    
+<main class="plan-your-day">
+<section class="plan-your-day--information">
+  <header class="plan-your-day__title">
+  <h1 class="plan-your-day__title__museum-info">Museum Information</h1>
+  </header>
 
-        <section>
-          <header>
-            <h1>Museum Information</h1>
-          </header>
-            <h2>Getting to the Museum</h2>
-              <p>The Museum is located at 1601 North Clark Street at the South end of Lincoln Park on Clark and North Avenue.</p>
+    <div><a name="GettingToMuseum"></a></div>
+    <h2 class="plan-your-day__address" id="GettingToMuseum" data-magellan-destination="GettingToMuseum">Getting to the Museum</h2>
+      <ul>
+          <li class="museum-info">
+            <ul class="small-block-grid-1 large-block-grid-2">
+              <li class="museum-info__title"><h2 class="museum-info__title">Museum Address</h2></li>
+              <li class="museum-info__description">
+                <p class="museum-info__description__details">The Museum is located at 1601 North Clark Street at the South end of Lincoln Park on Clark and North Avenue.</p>
+              </li>
+            </ul>
+          </li>
+          <li class="museum-info">
+            <ul class="small-block-grid-1 large-block-grid-2">
+              <li class="museum-info__title"><h2 class="museum-info__title">From Interstate 90/94</h2></li>
+              <li class="museum-info__description">
+                <p class="museum-info__description__details">Exit at North Avenue, drive east to LaSalle Street and turn left. Make a left on Stockton Drive to the parking garage.</p>
+              </li>
+            </ul>
+          </li>          
+          <li class="museum-info">
+            <ul class="small-block-grid-1 large-block-grid-2">
+              <li class="museum-info__title"><h2 class="museum-info__title">From Lake Shore Drive</h2></li>
+              <li class="museum-info__description">
+                <p class="museum-info__description__details">Exit at North Avenue and drive west. Turn right on Stockton Drive to the parking garage.</p>
+              </li>
+            </ul>
+          </li> 
+          <li class="museum-info">
+            <ul class="small-block-grid-1 large-block-grid-2">
+              <li class="museum-info__title"><h2 class="museum-info__title">By CTA</h2></li>
+              <li class="museum-info__description">
+                <p class="museum-info__description__details">CTA buses 22, 36, 72, 73, 151 and 156 all stop nearby. For travel information, call 312-836-7000 or visit <a href="http://www.transitchicago.com/">transitchicago.com</a>.</p>
+              </li>
+            </ul>
+          </li> 
+        </ul>   
 
-            <h3>From Interstate 90/94</h2>
-              <p>Exit at North Avenue, drive east to LaSalle Street and turn left. Make a left on Stockton Drive to the parking garage.</p>
 
-            <h3>From Lake Shore Drive</h2>
-              <p>Exit at North Avenue and drive west. Turn right on Stockton Drive to the parking garage.</p>
+    <div><a name="MuseumParking"></a></div>
+    <h2 class="plan-your-day__parking" id="MuseumParking" data-magellan-destination="MuseumParking">Parking</h2>
+      <ul>
+          <li class="museum-info">
+            <ul class="small-block-grid-1 large-block-grid-1">
+              <li class="museum-info__description">
+                <p class="museum-info__description__details">Public parking is conveniently located one block north of the Museum at Clark and LaSalle streets. Enter on Stockton Drive. Parking validation and handicapped parking are available.</p>
+              </li>
+            </ul>
+          </li>
+        </ul>
 
-            <h3>By CTA</h2>
-              <p>CTA buses 22, 36, 72, 73, 151 and 156 all stop nearby. For travel information, call 312-836-7000 or visit <a href="http://www.transitchicago.com/">transitchicago.com</a>.</p>
+    <div><a name="MuseumAccessibility"></a></div>
+    <h2 class="plan-your-day__accessibility" id="MuseumAccessibility" data-magellan-destination="MuseumAccessibility">Accessibility</h2>
+      <ul>
+          <li class="museum-info">
+            <ul class="small-block-grid-1 large-block-grid-1">
+              <li class="museum-info__description">
+                <p class="museum-info__description__details">All public spaces and most restrooms are wheelchair accessible. A limited number of wheelchairs and a listening system are available on gallery tours.</p>
+              </li>
+            </ul>
+          </li>
+        </ul>
 
-            <h2>Parking</h2>
-              <p>Public parking is conveniently located one block north of the Museum at Clark and LaSalle streets. Enter on Stockton Drive. Parking validation and handicapped parking are available.</p>
+    <div><a name="MuseumContact"></a></div>
+    <h2 class="plan-your-day__contact" id="MuseumContact" data-magellan-destination="MuseumContact">Contact the Museum</h2>
+      <ul>
+          <li class="museum-info">
+            <ul class="small-block-grid-1 large-block-grid-1">
+              <li class="museum-info__description">
+                <p class="museum-info__description__details">312-642-4600</p><p>reception@chicagohistory.org</p></p>
+              </li>
+            </ul>
+          </li>
+        </ul>
+           
+    <div><a name="TourInformation"></a></div>
+    <h2 class="plan-your-day__tour-info" id="TourInformation" data-magellan-destination="TourInformation">Tour Information</h2>
+      <ul>
+          <li class="museum-info">
+            <ul class="small-block-grid-1 large-block-grid-2">
+              <li class="museum-info__title"><h2 class="museum-info__title">Refund Policy</h2></li>
+              <li class="museum-info__description">
+                <p class="museum-info__description__details">In the event that you cancel your reservation for any reason, we will allow credit for payment in the form of an account credit, which can be applied to another tour. Credit will be given with a minimum of two weeks notice prior to the day of the tour. Please note that no credit will be given less than two weeks prior to the start of your tour.</p>
+              </li>
+            </ul>
+          </li>
+          <li class="museum-info">
+            <ul class="small-block-grid-1 large-block-grid-2">
+              <li class="museum-info__title"><h2 class="museum-info__title">Weather Hotline</h2></li>
+              <li class="museum-info__description">
+                <p class="museum-info__description__details">On the day of the tour, call our weather hotline to get the most up to date information about your tour. The weather hotline is 312-799-2002.</p>
+              </li>
+            </ul>
+          </li>
+        </ul>            
+            
+</section>
 
-            <h2>Accessibility</h2>
-              <p>All public spaces and most restrooms are wheelchair accessible. A limited number of wheelchairs and a listening system are available on gallery tours.</p>
-        </section>
-
-        <section>
-          <header>
-            <h1>Contact the Museum</h1>
-          </header>
-            <p>312-642-4600</p>
-            <p>reception@chicagohistory.org</p>
-        </section>
-
-        <section>
-          <header>
-            <h1>Tour Information</h1>
-          </header>
-            <h2>Refund Policy</h2>
-              <p>In the event that you cancel your reservation for any reason, we will allow credit for payment in the form of an account credit, which can be applied to another tour. Credit will be given with a minimum of two weeks notice prior to the day of the tour. Please note that no credit will be given less than two weeks prior to the start of your tour.</p>
-
-            <h2>Weather Hotline</h2>
-              <p>On the day of the tour, call our weather hotline to get the most up to date information about your tour. The weather hotline is 312-799-2002.</p>
-        </section>
-
-      </div>
+  </div>
 
         <div class="large-4 medium-4 columns">
           <aside class="panel">
@@ -90,9 +155,8 @@
             <p>Become a member today! As a member, you will receive free museum admission all year-round, free access to the research center, discounts on events, tours, and programs. Members also receive invitations to exclusive members-only events including exhibition previews, parties, and behind-the-scene tours.</p>
             <a href="#" class="button">Join the Museum</a>
           </aside>
-
         </div>
-      </div>
+</div>
 
   </main>
 

@@ -11,7 +11,7 @@ p {
 }
 
 /* BLOCKS */
-.introduction, .document--schedule {
+.introduction, .document--schedule, .document--plan-your-day {
 	background-color: #fff;
 	background-color: hsla(0, 100%, 100%, .9);
 	padding: 5rem;
@@ -98,17 +98,17 @@ html .document--tour-schedule {
   background-size: cover;
 }
 
-.schedule {
+.schedule, .plan-your-day {
 	/*background: #fff;*/
 }
 
-.schedule__date {
+.schedule__date, .plan-your-day__title {
 	background-color: #505050;
 	background-color: hsla(0, 0%, 30%, .9);
 	border-radius: .25em;
 }
 
-.schedule__date__day {
+.schedule__date__day, .plan-your-day__title__museum-info {
 	color: Orange;
 	color: hsla(39, 100%, 50%, 1);
 	font-size: 2rem;
@@ -117,7 +117,7 @@ html .document--tour-schedule {
 	text-transform: uppercase;
 }
 
-.schedule__time {
+.schedule__time, .plan-your-day__address, .plan-your-day__parking, .plan-your-day__accessibility, .plan-your-day__contact, .plan-your-day__tour-info {
 	background-color: #ded;
 	background-color: hsla(203, 92%, 75%, .25);
 	border-radius: .25em;
@@ -138,24 +138,24 @@ html .document--tour-schedule {
 	background-color: hsla(203, 92%, 75%, .65);
 }*/
 
-.tour {
+.tour, .museum-info {
 	border-bottom: 2px dotted hsla(0, 0%, 75%, 1);
 	padding: 1rem;
 }
 
-.tour:last-child {
+.tour:last-child, .museum-info:last-child {
 	border-bottom: 0;
 }
 
-.tour__title {
+.tour__title, .museum-info__title {
 	font-size: 1.5rem;
 }
 
-.tour__description {
+.tour__description, .museum-info__description {
 	font-size: 1rem;
 }
 
-.tour__description__excerpt {
+.tour__description__excerpt, .museum-info__description__details {
 	margin-bottom: 0;
 }
 
