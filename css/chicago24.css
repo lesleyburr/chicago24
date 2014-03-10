@@ -192,6 +192,7 @@ html .document--packages {
 	color: hsla(39, 100%, 50%, 1);
 	font-size: 1.75rem;
 	font-weight: 500;
+	padding-top: .75rem;
 }
 
 /*.tours > li:nth-child(even) {
@@ -241,6 +242,10 @@ html .document--packages {
 	margin-bottom: 1rem;
 }
 
+.tour__date--small {
+	font-size: 1em;
+}
+
 
 /* FOUNDATION OVERRIDES */
 [class*="block-grid-"] > li {
@@ -252,9 +257,11 @@ html .document--packages {
 }
 
 .alert-box.info {
-	background-color: Gainsboro;
-	background-color: hsla(210, 12%, 53%, .35);
-	border-color: #ccc;
+	background-color: Orange;
+	background-color: hsla(65, 90%, 60%, .65);
+	border: none;
+	/*background-color: Gainsboro;
+	background-color: hsla(210, 12%, 53%, .35);*/
 }
 
 /*// Small screens*/
