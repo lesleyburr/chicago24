@@ -187,6 +187,13 @@ html .document--packages {
 	border-radius: .25rem;
 }
 
+.tour__title--orange {
+	color: Orange;
+	color: hsla(39, 100%, 50%, 1);
+	font-size: 1.75rem;
+	font-weight: 500;
+}
+
 /*.tours > li:nth-child(even) {
 	background-color: LightSkyBlue;
 	background-color: hsla(203, 92%, 75%, .25);
