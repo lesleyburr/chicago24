@@ -2,9 +2,30 @@
 // TOUR SCHEDULE
 //
 
-$("#Saturday12pmGoldCoast").click(function() {
-		$("#Saturday12pmGoldCoastDescription, #Saturday12pmGoldCoastInfo").slideToggle( "slow", "linear" );
+(function( $ ){
+   $.fn.reading = function() {
+      if ($(this).text() == "… Read more") {
+				$(this).text("Read less");
+			}
+			else {
+				$(this).html("&hellip; Read more");
+			}
+      return this;
+   };
+})( jQuery );
+
+
+$("#Saturday12pmGoldCoast").click(function(e) {
+		e.preventDefault();
+		$(this).reading();
+		// var txt = $(this).text();
+ 	// 	console.log(txt);
+ 	// 	var html = $(this).html();
+ 	// 	console.log(html);
+		$("#Saturday12pmGoldCoastDescription, #Saturday12pmGoldCoastInfo").slideToggle();
+
 	});
+
 
 
 	// LARGE SCREEN and SMALL SCREEN MENUS
