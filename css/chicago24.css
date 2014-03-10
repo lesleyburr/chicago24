@@ -235,6 +235,7 @@ html .document--plan {
 	}
 
 	.button--see-schedule, .button--tickets {
+		margin-top: 2rem;
 		width: 100%;
 }
 
