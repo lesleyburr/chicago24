@@ -13,13 +13,6 @@
    };
 })( jQuery );
 
-// $("#Saturday12pmGoldCoast").click(function(e) {
-// 		e.preventDefault();
-// 		$(this).reading();
-// 		$(this).parent().siblings('p').first().toggleClass("tour__description__excerpt");
-// 		$("#Saturday12pmGoldCoastDescription, #Saturday12pmGoldCoastInfo").slideToggle();
-// 	});
-
 $(".tour__link--read-more").click(function(e) {
 		e.preventDefault();
 		$(this).reading();
