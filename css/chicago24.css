@@ -26,6 +26,13 @@ html, body {
 	min-height: 100%;
 }
 
+.introduction__footer {
+	background-color: #fff;
+	background-color: hsla(0, 100%, 100%, .9);
+	padding: 0 5rem 5rem 5rem;
+	min-height: 100%;
+}
+
 .document__title {
 	font-size: 3rem;
 	font-weight: 500;
@@ -96,6 +103,10 @@ html, body {
 .logo--chicago24 {
 	padding-top: 1rem;
 	width: 100%;
+}
+
+.logo--sponsor {
+	padding-top: 1rem;
 }
 
 .logo--chicago24--home {
@@ -310,6 +321,10 @@ html .document--packages {
  	.introduction, .document--schedule, .document--tour-packages, .document--plan-your-day {
 		background-color: hsla(0, 100%, 100%, .9);
 		padding: 1rem 1rem 1rem 1rem;
+	}
+
+	.introduction__footer {
+		padding: 1em;	
 	}
 
 	.navigation--main {
