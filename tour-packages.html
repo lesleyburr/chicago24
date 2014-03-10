@@ -6,41 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Attend Chicago 24</title>
     <link rel="stylesheet" href="css/foundation.css" />
-    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/chicago24.css">
     <script src="js/vendor/modernizr.js"></script>
   </head>
-
-  <body>
+  <body class="document--packages">
 
     <div class="row">
       <div class="large-12 columns">
-
-      <nav class="navigation__main">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="schedule.html">Tour Schedule</a></li>
-          <li><a href="#" class="active">Tour Packages</a></li>
-          <li><a href="plan-your-day.html">Plan Your Day</a></li>
-        </ul>
-      </nav>
-
-      <img src="img/logo-chm.png" class="document__logo--museum" alt="Chicago History Museum logo">
-
-      <img src="img/logo-chicago24.png" class="document__logo--chicago24" alt="Chicago 24 logo">
       </div>
     </div>
 
-  <main>
-    
+
+<div class="row">
+<div class="large-12 medium-12 columns">
+<section class="document--tour-packages">
+  <section class="document__header">
     <div class="row">
-      <div class="large-12 columns">
-        <header>
-        <h1>Tour Packages</h1>
-        <p>Select a curated package to navigate your weekend. You get three tours, and a weekend of fun all for one price!</p>
-        <p>With each tour package purchase you’ll receive access to our VIP room, a <em>ChicaGO 24</em> t-shirt, and a discount at the North &amp; Clark Caf&eacute; and the Museum store!</p>
-        </header>
-        
-        <div data-magellan-expedition="fixed">
+    <div class="large-5 columns">
+      <header>
+        <img src="img/logo-chm.png" class="logo--museum" alt="Chicago History Museum">
+        <img src="img/logo-chicago24.png" class="logo--chicago24" alt="The Chicago 24 Event">
+        <h1 class="document__title hide--small">Tour Packages</h1>
+      </header>
+    </div>
+    <div class="large-7 columns">
+      <nav class="navigation--main">
+        <ul>
+          <li class="navigation--main__item"><a href="index.html">Home</a></li>
+          <li class="navigation--main__item"><a href="schedule.html">Tour Schedule</a></li>
+          <li class="navigation--main__item navigation--main__item--active">Tour Packages</li>
+          <li class="navigation--main__item"><a href="plan-your-day.html">Plan Your Day</a></li>
+        </ul>
+      </nav>
+    </div>
+    </div>
+  </section>
+
+  <!--         <div data-magellan-expedition="fixed">
           <dl class="sub-nav tour-package__menu">
             <dd data-magellan-arrival="backyard-historian"><a href="#backyard-historian">Backyard Historian</a></dd>
             <dd data-magellan-arrival="history-buff"><a href="#history-buff">History Buff</a></dd>
@@ -50,60 +52,72 @@
           </dl>
         </div>
 
-      </div>
-    </div>
+      </div> -->
+    
+<main class="tour-packages">
+  <section class="tour-packages--intro">
+    <p>Select a curated package to navigate your weekend. You get three tours, and a weekend of fun all for one price!</p>
+    <p>With each tour package purchase you’ll receive access to our VIP room, a <em>ChicaGO 24</em> t-shirt, and a discount at the North &amp; Clark Caf&eacute; and the Museum store!</p>
+  </section>
 
-    <div class="row">
-      <div class="large-12 columns">
-        <section>
-          <header>
-            <a name="backyard-historian"></a>
-            <h1 data-magellan-destination="backyard-historian">Backyard Historian</h1>
-            <p>The Museum’s backyard becomes your playground with this package of insightful tours.</p>
-          </header>
-              <ul class="small-block-grid-1 large-block-grid-3">
-                <li>
-                  <section>
-                  <header>
-                    <h1>History Pup Crawl</h1>
-                    <p>Saturday, May 3</p>
-                    <p>6:00 p.m.&#8211;7:30 p.m.</p>
-                  </header>
-                    <p>Hear the tales of historic pups on this two-mile tour that immerses you and your best friend in beautiful Lincoln Park. Visit its numerous gardens, learn about dog-friendly pubs, and more. </p>
-                    <p class="alert-box info">All humans must be accompanied by a dog and vice versa.</p>
-                    <h2>Meeting Location</h2> 
+<section class="package--type">
+  <div><a name="BackyardHistorian"></a></div>
+  <header class="package__title">
+  <h1 class="package__title__backyard-historian package__name" id="BackyardHistorian" data-magellan-destination="BackyardHistorian">Backyard Historian</h1>
+  </header>
+  <p>The Museum’s backyard becomes your playground with this package of insightful tours.</p>
+     <ul class="tours">
+        <li>
+        <h2 class="package__tour">History Pup Crawl</h2>
+              <ul class="small-block-grid-1 large-block-grid-1 tour__info">
+                <li class="tour__title"><h2 class="tour__title">Saturday, May 3</h2></li>
+                <li>6:00 p.m.&#8211;7:30 p.m.</li>
+                <li class="tour__description">
+                  <p class="tour__description__excerpt">Hear the tales of historic pups on this two-mile tour that immerses you and your best friend in beautiful Lincoln Park. Visit its numerous gardens, learn about dog-friendly pubs, and more.</p>
+                  <p class="alert-box info">All humans must be accompanied by a dog and vice versa.</p>
+                    <h3 class="tour__description__meeting-location">Meeting Location</h3>
                     <p>The Museum's Uihlein plaza</p>
-                </section>
-              </li>
-              <li>
-                <section>
-                  <header>
-                    <h1>Garden of the Dead: The History of Lincoln Park’s Elusive Graves</h1>
-                    <p>Saturday, May 3</p>
-                    <p>10:00 p.m.&#8211;12:00 a.m.</p>
-                  </header>
-                    <p>Chicago’s early dead were trafficked into and out of its first municipal graveyard, the Chicago City Cemetery. Pamela Bannos of the Hidden Truths Project shares stories of grave robbers, improper burials, and the confusion that led to the creation of Lincoln Park.</p>
-                    <h2>Meeting Location</h2> 
+                </li>
+              </ul>
+            </li>
+
+            <li>
+            <h2 class="package__tour">Garden of the Dead: The History of Lincoln Park’s Elusive Graves</h2>
+              <ul class="small-block-grid-1 large-block-grid-1 tour__info">
+                <li class="tour__title"><h2 class="tour__title">Saturday, May 3</h2></li>
+                <li>10:00 p.m.&#8211;12:00 a.m.</li>
+                <li class="tour__description">
+                  <p class="tour__description__excerpt">Chicago’s early dead were trafficked into and out of its first municipal graveyard, the Chicago City Cemetery. Pamela Bannos of the Hidden Truths Project shares stories of grave robbers, improper burials, and the confusion that led to the creation of Lincoln Park.</p>
+                    <h3 class="tour__description__meeting-location">Meeting Location</h3>
                     <p>The Museum</p>
-                </section>
-              </li>
-              <li>
-                <section>
-                  <header>
-                    <h1>Old Town</h1>
-                    <p>Sunday, May 4</p>
-                    <p>10:00 a.m.&#8211;12:00 p.m.</p>
-                  </header>
-                    <p>Old Town has seen a wide assortment of residents come and go. Learn about its colorful past and vibrant present on this walking tour.</p>
-                    <h2>Meeting Location</h2>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+            <h2 class="package__tour">Old Town</h2>
+              <ul class="small-block-grid-1 large-block-grid-1 tour__info">
+                <li class="tour__title"><h2 class="tour__title">Sunday, May 4</h2></li>
+                <li>10:00 a.m.&#8211;12:00 p.m.</li>
+                <li class="tour__description">
+                  <p class="tour__description__excerpt">Old Town has seen a wide assortment of residents come and go. Learn about its colorful past and vibrant present on this walking tour.</p>
+                    <h3 class="tour__description__meeting-location">Meeting Location</h3>
                     <p>The Museum</p>
-                </section>
-              </li>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+            <h2 class="package__tour">Cost</h2>
+              <ul class="small-block-grid-1 large-block-grid-1 tour__info">
+                <li class="tour__title">$85 Members, $100 General</li>
+                <li class="tour__description">
+                  <a href="https://services.chicagohistory.org/loader.asp?target=hall.asp?event=21797" class="button">Purchase the Backyard Historian package</a>
+                </li>
+              </ul>
+            </li>
             </ul>
-              
-            <h2>Cost:<h2><p>$85 Members, $100 General</p>
-            <a href="https://services.chicagohistory.org/loader.asp?target=hall.asp?event=21797" class="button">Purchase the Backyard Historian package</a>
-        </section>
+
 
         <section>
           <header>

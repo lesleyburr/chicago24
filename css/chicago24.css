@@ -10,11 +10,29 @@ p {
 	line-height: 1.5;
 }
 
+html, body {
+	min-height: 100%;
+}
+
+.home {
+	min-height: 100%;
+}
+
+.intro {
+	min-height: 100%;
+}
+
 /* BLOCKS */
-.introduction, .document--schedule, .document--plan-your-day {
+
+.browser-height {
+	min-height: 100%;
+}
+
+.introduction, .document--schedule, .document--plan-your-day, .document--tour-packages {
 	background-color: #fff;
 	background-color: hsla(0, 100%, 100%, .9);
 	padding: 5rem;
+	min-height: 100%;
 }
 
 .document__title {
@@ -23,7 +41,6 @@ p {
 	padding: .25rem 0 0 0;
 	margin-bottom: 0;
 	text-transform: capitalize;
-
 }
 
 .navigation--main__item{
@@ -109,17 +126,27 @@ html .document--plan {
   background-size: cover;
 }
 
+/* TOUR PACKAGES */
+html .document--packages {
+  background: url(../img/eg-downtown.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
 .schedule, .plan-your-day {
 	/*background: #fff;*/
 }
 
-.schedule__date, .plan-your-day__title {
+.schedule__date, .plan-your-day__title, .package__title {
 	background-color: #505050;
 	background-color: hsla(0, 0%, 30%, .9);
 	border-radius: .25rem;
 }
 
-.schedule__date__day, .plan-your-day__title__museum-info {
+.schedule__date__day, .plan-your-day__title__museum-info, .package__title__backyard-historian {
 	color: Orange;
 	color: hsla(39, 100%, 50%, 1);
 	font-size: 2rem;
@@ -128,7 +155,7 @@ html .document--plan {
 	text-transform: uppercase;
 }
 
-.schedule__time, .plan-your-day__address, .plan-your-day__parking, .plan-your-day__accessibility, .plan-your-day__contact, .plan-your-day__tour-info {
+.schedule__time, .plan-your-day__address, .plan-your-day__parking, .plan-your-day__accessibility, .plan-your-day__contact, .plan-your-day__tour-info, .package__tour {
 	background-color: #ded;
 	background-color: hsla(203, 92%, 75%, .25);
 	border-radius: .25rem;
