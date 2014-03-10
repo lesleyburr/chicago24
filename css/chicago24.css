@@ -146,7 +146,7 @@ html .document--packages {
 	border-radius: .25rem;
 }
 
-.schedule__date__day, .plan-your-day__title__museum-info, .package__title__backyard-historian {
+.schedule__date__day, .plan-your-day__title__museum-info, .package__title__backyard-historian, .package__title__history-buff, .package__title__health-nut, .package__title__night-owl, .package__title__wild-card {
 	color: Orange;
 	color: hsla(39, 100%, 50%, 1);
 	font-size: 2rem;
