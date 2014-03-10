@@ -34,6 +34,20 @@ html, body {
 	text-transform: capitalize;
 }
 
+.document__lead {
+	color: Orange;
+	color: hsla(35, 100%, 50%, 1);
+	font-size: 1.5rem;
+	font-weight: 500;
+	padding: .5rem 0 0 .5rem;
+	margin: 0;
+}
+
+.document__lead__date {
+	padding: 0 0 0 .5rem;
+	margin: 0;
+}
+
 .navigation--main__item {
 	background-color: Gainsboro;
 	background-color: hsla(210, 14%, 53%, .25);
