@@ -178,6 +178,7 @@ html .document--plan {
 .tour__description__meeting-location, .tour__description__cost {
 	font-size: 1.1rem;
 	font-weight: 600;
+	margin: 0;
 	text-transform: uppercase;
 }
 
