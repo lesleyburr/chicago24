@@ -177,6 +177,12 @@ html .document--packages {
 	padding: .25rem .25rem .25rem 1rem;
 }
 
+.tour-package__tour--blue {
+	background-color: #ded;
+	background-color: hsla(203, 92%, 75%, .25);
+	border-radius: .25rem;
+}
+
 /*.tours > li:nth-child(even) {
 	background-color: LightSkyBlue;
 	background-color: hsla(203, 92%, 75%, .25);
