@@ -14,16 +14,7 @@ html, body {
 	min-height: 100%;
 }
 
-.home {
-	min-height: 100%;
-}
-
-.intro {
-	min-height: 100%;
-}
-
 /* BLOCKS */
-
 .browser-height {
 	min-height: 100%;
 }
@@ -262,7 +253,7 @@ html .document--packages {
 		margin-top: 3rem;
 	}
 
- .introduction, .document--schedule {
+ 	.introduction, .document--schedule {
 		background-color: hsla(0, 100%, 100%, .9);
 		padding: 1rem 1rem 1rem 1rem;
 	}
@@ -298,13 +289,7 @@ html .document--packages {
 .tour__title, .museum-info__title {
 	font-size: 2rem;
 }
-/*	.time--small {
-		display: block;
-	}*/
 
-/*	.schedule__date {
-		display: inline;
-	}*/
 
 } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 
