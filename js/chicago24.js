@@ -1,7 +1,6 @@
 //
 // TOUR SCHEDULE
 //
-
 (function( $ ){
    $.fn.reading = function() {
       if ($(this).text() == "… Read more") {
@@ -14,16 +13,18 @@
    };
 })( jQuery );
 
+// $("#Saturday12pmGoldCoast").click(function(e) {
+// 		e.preventDefault();
+// 		$(this).reading();
+// 		$(this).parent().siblings('p').first().toggleClass("tour__description__excerpt");
+// 		$("#Saturday12pmGoldCoastDescription, #Saturday12pmGoldCoastInfo").slideToggle();
+// 	});
 
-$("#Saturday12pmGoldCoast").click(function(e) {
+$(".tour__link--read-more").click(function(e) {
 		e.preventDefault();
 		$(this).reading();
-		// var txt = $(this).text();
- 	// 	console.log(txt);
- 	// 	var html = $(this).html();
- 	// 	console.log(html);
-		$("#Saturday12pmGoldCoastDescription, #Saturday12pmGoldCoastInfo").slideToggle();
-
+		$(this).parent().siblings("p").first().toggleClass("tour__description__excerpt");
+		$(this).parent().siblings("[id$=Description], [id$=Info]").slideToggle();
 	});
 
 
@@ -33,9 +34,9 @@ $("#Saturday12pmGoldCoast").click(function(e) {
 	// IF Tour is visible THEN HIDE all but SELF
 	// SHOW or HIDE Tour
 	// $("#Saturday12pm, #SmallSaturday12pm").click(function() {
-	// 	if ($("[id^=ToursSaturday]").is(":visible")) {
-	// 		$("[id^=ToursSaturday]:not(#ToursSaturday12pm)").hide(true);
-	// 	}
+		// if ($("[id^=ToursSaturday]").is(":visible")) {
+		// 	$("[id^=ToursSaturday]:not(#ToursSaturday12pm)").hide(true);
+		// }
 
 	// 	$("#ToursSaturday12pm").slideToggle( "slow", "linear" );
 	// });
