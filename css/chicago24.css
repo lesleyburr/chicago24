@@ -163,6 +163,10 @@ html .document--tour-schedule {
 	/*display: inline;*/
 }
 
+.button--tickets {
+	text-transform: uppercase;
+}
+
 
 /* FOUNDATION OVERRIDES */
 [class*="block-grid-"] > li {
