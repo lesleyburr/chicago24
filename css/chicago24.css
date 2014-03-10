@@ -107,6 +107,8 @@ html .home {
 }
 
 .introduction__title {
+	color: Orange;
+	color: hsla(35, 100%, 50%, 1);
 	font-weight: 400;
 }
 
