@@ -58,6 +58,11 @@ html, body {
 	background-color: hsla(65, 100%, 50%, .45);
 }
 
+.navigation--main__item:active {
+	background-color: Orange;
+	background-color: hsla(39, 100%, 50%, .65);
+}
+
 .navigation--main__item--active, .navigation--main__item--active:hover{
 	background-color: Orange;
 	background-color: hsla(39, 100%, 50%, .65);
@@ -66,6 +71,8 @@ html, body {
 	padding: .5rem;
 	text-shadow: 2px 2px 2px hsla(39, 100%, 40%, .65);
 }
+
+
 
 .logo--museum {
 /*	padding-top: 2rem;*/
