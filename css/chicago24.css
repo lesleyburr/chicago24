@@ -267,7 +267,7 @@ html .document--packages {
 
 .alert-box {
 	background-color: transparent;
-	padding: 0.7rem 1rem 0.7rem 0.7rem;
+	padding: 0;
 } 
 
 .alert-box.info {
@@ -275,9 +275,13 @@ html .document--packages {
 	border: none;
 	font-size: 1rem;
 	font-style: italic;
-	/*background-color: #ccc;
-	border-radius: .25rem;
-	background-color: hsla(215, 15%, 55%, .35);*/
+}
+
+.alert {
+	background-color: transparent;
+	border: none;
+	font-size: 1rem;
+	font-style: italic;
 }
 
 /*// Small screens*/
