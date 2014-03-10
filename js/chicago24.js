@@ -24,7 +24,8 @@ $(".tour__link--read-more").click(function(e) {
 		e.preventDefault();
 		$(this).reading();
 		$(this).parent().siblings("p").first().toggleClass("tour__description__excerpt");
-		$(this).parent().siblings("[id$=Description], [id$=Info]").slideToggle();
+		$(this).parent().siblings("[id$=Info]").slideToggle();
+		$(this).parent().siblings().children("[id$=Description]").slideToggle();
 	});
 
 
