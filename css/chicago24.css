@@ -116,7 +116,7 @@ html .document--plan-your-day {
 .schedule__date, .plan-your-day__title {
 	background-color: #505050;
 	background-color: hsla(0, 0%, 30%, .9);
-	border-radius: .25em;
+	border-radius: .25rem;
 }
 
 .schedule__date__day, .plan-your-day__title__museum-info {
@@ -131,7 +131,7 @@ html .document--plan-your-day {
 .schedule__time, .plan-your-day__address, .plan-your-day__parking, .plan-your-day__accessibility, .plan-your-day__contact, .plan-your-day__tour-info {
 	background-color: #ded;
 	background-color: hsla(203, 92%, 75%, .25);
-	border-radius: .25em;
+	border-radius: .25rem;
 	color: Orange;
 	color: hsla(39, 100%, 50%, 1);
 	font-size: 1.75rem;
@@ -173,6 +173,12 @@ html .document--plan-your-day {
 
 .tour__description__read-more {
 	/*display: inline;*/
+}
+
+.tour__description__meeting-location, .tour__description__cost {
+	font-size: 1.1rem;
+	font-weight: 600;
+	text-transform: uppercase;
 }
 
 
