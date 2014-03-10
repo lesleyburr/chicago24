@@ -19,9 +19,9 @@ $(".tour__link--read-more").click(function(e) {
 		$(this).parent().siblings("p").first().toggleClass("tour__description__excerpt");
 		$(this).parent().siblings("[id$=Info]").slideToggle();
 		$(this).parent().siblings().children("[id$=Description]").slideToggle();
+		$(this).parent().siblings().children("[id$=Description]").css('display','inline');
+
 	});
-
-
 
 	// LARGE SCREEN and SMALL SCREEN MENUS
 	// CHECK for visible Tours
