@@ -1,0 +1,299 @@
+/* BASE */
+
+ul {
+	list-style-type: none;
+	margin: 0;
+}
+
+p {
+	font-size: 1.25rem;
+	line-height: 1.5;
+}
+
+/* BLOCKS */
+.introduction, .document--schedule, .document--plan-your-day {
+	background-color: #fff;
+	background-color: hsla(0, 100%, 100%, .9);
+	padding: 5rem;
+}
+
+.document__title {
+	font-size: 3rem;
+	font-weight: 500;
+	padding: .25rem 0 0 0;
+	margin-bottom: 0;
+	text-transform: capitalize;
+
+}
+
+.navigation--main__item{
+	background-color: Gainsboro;
+	background-color: hsla(210, 14%, 53%, .25);
+	border-radius: .25rem;
+	display: inline-block;
+	font-size: .85rem;
+	font-weight: 500;
+	padding: .5rem;
+	text-align: center;
+	text-transform: uppercase;
+	width: 8.5rem;
+}
+
+.navigation--main__item:hover{
+	background-color: Orange;
+	background-color: hsla(65, 100%, 50%, .45);
+}
+
+.navigation--main__item--active, .navigation--main__item--active:hover{
+	background-color: Orange;
+	background-color: hsla(39, 100%, 50%, .65);
+	border-radius: .25rem;
+	color: #fff;
+	text-shadow: 2px 2px 2px hsla(39, 100%, 40%, .65);
+}
+
+.logo--museum {
+/*	padding-top: 2rem;*/
+	width: 100%;
+}
+
+.logo--chicago24 {
+	padding-top: 1rem;
+	width: 100%;
+}
+
+.logo--chicago24--home {
+	padding-bottom: 2rem;
+	padding-top: 3rem;
+}
+
+.button--see-schedule, .button--tickets {
+	box-shadow: 1px 3px 2px #999;
+	font-weight: 500;
+	letter-spacing: .085rem;
+	text-transform: uppercase;
+	transition: box-shadow 0.5s ease;
+}
+
+.button--see-schedule:hover, .button--tickets:hover {
+	box-shadow: 0 0 0 #999;
+}
+
+html .home {
+  background: url(../img/eg-pilsen.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.introduction__title {
+	font-weight: 400;
+}
+
+/* TOUR SCHEDULE */
+html .document--tour-schedule {
+  background: url(../img/eg-chinatown.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* PLAN YOUR DAY */
+html .document--plan {
+  background: url(../img/eg-downtown.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.schedule, .plan-your-day {
+	/*background: #fff;*/
+}
+
+.schedule__date, .plan-your-day__title {
+	background-color: #505050;
+	background-color: hsla(0, 0%, 30%, .9);
+	border-radius: .25rem;
+}
+
+.schedule__date__day, .plan-your-day__title__museum-info {
+	color: Orange;
+	color: hsla(39, 100%, 50%, 1);
+	font-size: 2rem;
+	font-weight: 500;
+	padding: 1rem;
+	text-transform: uppercase;
+}
+
+.schedule__time, .plan-your-day__address, .plan-your-day__parking, .plan-your-day__accessibility, .plan-your-day__contact, .plan-your-day__tour-info {
+	background-color: #ded;
+	background-color: hsla(203, 92%, 75%, .25);
+	border-radius: .25rem;
+	color: Orange;
+	color: hsla(39, 100%, 50%, 1);
+	font-size: 1.75rem;
+	font-weight: 500;
+	padding: .25rem .25rem .25rem 1rem;
+}
+
+/*.tours > li:nth-child(even) {
+	background-color: LightSkyBlue;
+	background-color: hsla(203, 92%, 75%, .25);
+}
+
+.tours > li:nth-child(odd) {
+	background-color: LightSkyBlue;
+	background-color: hsla(203, 92%, 75%, .65);
+}*/
+
+.tour, .museum-info {
+	border-bottom: 2px dotted hsla(0, 0%, 75%, 1);
+	padding: 1rem;
+}
+
+.tour:last-child, .museum-info:last-child {
+	border-bottom: 0;
+}
+
+.tour__title, .museum-info__title {
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+
+.tour__description, .museum-info__description {
+	font-size: 1rem;
+}
+
+.tour__description__excerpt, .museum-info__description__details {
+	margin-bottom: 0;
+}
+
+.tour__description__read-more {
+	/*display: inline;*/
+}
+
+.tour__description__meeting-location, .tour__description__cost {
+	font-size: 1.1rem;
+	font-weight: 600;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+
+/* FOUNDATION OVERRIDES */
+[class*="block-grid-"] > li {
+	padding: 0;
+}
+
+.button {
+	margin-bottom: 0;
+}
+
+
+/*// Small screens*/
+@media only screen {
+} /* Define mobile styles */
+
+@media only screen and (max-width: 40rem) {
+	.hide--small {
+		display: none;
+	}
+
+	.introduction{
+		margin-top: 3rem;
+	}
+
+ .introduction, .document--schedule {
+		background-color: hsla(0, 100%, 100%, .9);
+		padding: 1rem 1rem 1rem 1rem;
+	}
+
+	.navigation--main {
+		margin-top: 2rem;
+
+	}
+
+	.navigation--main__item {
+		display: block;
+		margin-bottom: .5rem;
+		width: 100%;
+	}
+
+	.introduction__title {
+		font-size: 1.35rem;
+		font-weight: 500;
+		margin-top: 0rem;
+		margin-bottom: 0;
+	}
+
+	.logo--chicago24--home {
+		padding-bottom: 1rem;
+		padding-top: 2rem;
+	}
+
+	.button--see-schedule, .button--tickets {
+		margin-top: 2rem;
+		width: 100%;
+}
+
+.tour__title, .museum-info__title {
+	font-size: 2rem;
+}
+/*	.time--small {
+		display: block;
+	}*/
+
+/*	.schedule__date {
+		display: inline;
+	}*/
+
+} /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+
+/*// Medium screens*/
+@media only screen and (min-width: 40.063rem) {
+	.hide--large {
+		display: none;
+	}
+} /* min-width 641px, medium screens */
+
+@media only screen and (min-width: 40.063rem) and (max-width: 64rem) {
+	.hide--large {
+		display: none;
+	}
+} /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+
+/*// Large screens*/
+@media only screen and (min-width: 64.063rem) {
+	.hide--large {
+		display: none;
+	}
+} /* min-width 1025px, large screens */
+
+@media only screen and (min-width: 64.063rem) and (max-width: 90rem) {
+	.hide--large {
+		display: none;
+	}
+} /* min-width 1024px and max-width 1440px, use when QAing large screen-only issues */
+
+/*// XLarge screens*/
+@media only screen and (min-width: 90.063rem) {
+	.hide--large {
+		display: none;
+	}
+} /* min-width 1441px, xlarge screens */
+
+@media only screen and (min-width: 90.063rem) and (max-width: 120rem) {
+	.hide--large {
+		display: none;
+	}
+} /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+
+/*// XXLarge screens*/
+@media only screen and (min-width: 120.063rem) {
+	.hide--large {
+		display: none;
+	}
+} /* min-width 1921px, xlarge screens */

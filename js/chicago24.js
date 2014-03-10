@@ -1,14 +1,36 @@
-// 
-// TOUR SCHEDULE 
-// 
+//
+// TOUR SCHEDULE
+//
+(function( $ ){
+   $.fn.reading = function() {
+      if ($(this).text() == "… Read more") {
+				$(this).text("Read less");
+			}
+			else {
+				$(this).html("&hellip; Read more");
+			}
+      return this;
+   };
+})( jQuery );
+
+$(".tour__link--read-more").click(function(e) {
+		e.preventDefault();
+		$(this).reading();
+		$(this).parent().siblings("p").first().toggleClass("tour__description__excerpt");
+		$(this).parent().siblings("[id$=Info]").slideToggle();
+		$(this).parent().siblings().children("[id$=Description]").slideToggle();
+	});
+
+
+
 	// LARGE SCREEN and SMALL SCREEN MENUS
 	// CHECK for visible Tours
 	// IF Tour is visible THEN HIDE all but SELF
 	// SHOW or HIDE Tour
 	// $("#Saturday12pm, #SmallSaturday12pm").click(function() {
-	// 	if ($("[id^=ToursSaturday]").is(":visible")) {
-	// 		$("[id^=ToursSaturday]:not(#ToursSaturday12pm)").hide(true);
-	// 	}
+		// if ($("[id^=ToursSaturday]").is(":visible")) {
+		// 	$("[id^=ToursSaturday]:not(#ToursSaturday12pm)").hide(true);
+		// }
 
 	// 	$("#ToursSaturday12pm").slideToggle( "slow", "linear" );
 	// });
@@ -150,9 +172,9 @@
 	// });
 
 
-// 
+//
 // Filter Tours by Type
-// 
+//
 	// SHOW Tours ON CLICK
 	// HIDE Tours ON ClICK
 
