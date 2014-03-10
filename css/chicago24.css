@@ -273,10 +273,8 @@ html .document--packages {
 .alert-box.info {
 	background-color: transparent;
 	border: none;
-	font-weight: 500;
 	font-size: 1rem;
-	color: blue;
-	opacity:0.6;
+	font-style: italic;
 	/*background-color: #ccc;
 	border-radius: .25rem;
 	background-color: hsla(215, 15%, 55%, .35);*/
