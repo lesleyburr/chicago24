@@ -141,8 +141,9 @@ html .home {
 .introduction__footer {
 	background-color: #fff;
 	background-color: hsla(0, 100%, 100%, .9);
-	padding: 0 5rem 1rem 5rem;
+	margin-bottom: 3rem;
 	min-height: 100%;
+	padding: 0 5rem 1rem 5rem;
 }
 
 /* TOUR SCHEDULE */
