@@ -147,7 +147,7 @@ html .home {
 
 /* TOUR SCHEDULE */
 html .document--tour-schedule {
-  background: url(../img/eg-chinatown.jpg) no-repeat center center fixed;
+  background: url(../img/eg-chinatown.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -371,14 +371,6 @@ html .document--packages {
 
 	.package__title, .plan-your-day__title, .schedule__date {
 		text-align: center;
-	}
-
-	html .document--tour-schedule {
-	  	background: url(../img/eg-chinatown.jpg) no-repeat center center fixed;
-	  	-webkit-background-size: contain;
-	  	-moz-background-size: contain;
-	  	-o-background-size: contain;
-	  	background-size: contain;
 	}
 
 
