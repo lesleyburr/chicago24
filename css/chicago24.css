@@ -373,6 +373,14 @@ html .document--packages {
 		text-align: center;
 	}
 
+	html .document--tour-schedule {
+	  	background: url(../img/eg-chinatown.jpg) no-repeat center center fixed;
+	  	-webkit-background-size: contain;
+	  	-moz-background-size: contain;
+	  	-o-background-size: contain;
+	  	background-size: contain;
+	}
+
 
 } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 
