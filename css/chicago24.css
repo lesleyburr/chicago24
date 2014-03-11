@@ -218,13 +218,6 @@ html .document--packages {
 	border-radius: .25rem;
 }
 
-.tour-package__information {
-	background-color: #ded;
-	background-color: hsla(203, 92%, 75%, .25);
-	border-radius: .25rem;
-	padding: 2rem;
-}
-
 .tour-package__tour-title {
 	color: Orange;
 	color: hsla(39, 100%, 50%, 1);
@@ -288,13 +281,14 @@ html .document--packages {
 	font-size: 1em;
 }
 
-.tour-package__button--tickets {
+/*.tour-package__button--tickets {
 	margin-top: 1rem;
 	text-align: right;
-}
+}*/
 
 .tour-packages--intro {
 	margin-top: 3rem;
+	font-style: italic;
 }
 
 
