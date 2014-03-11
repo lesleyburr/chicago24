@@ -185,6 +185,7 @@ html .document--packages {
 	font-weight: 500;
 	padding: 1rem;
 	text-transform: uppercase;
+	letter-spacing: .15rem;
 }
 
 .schedule__date__day, .tours__count {
@@ -278,6 +279,15 @@ html .document--packages {
 
 .tour-package__tour--date {
 	font-size: 1em;
+}
+
+.tour-package__button--tickets {
+	margin-top: 1rem;
+	text-align: right;
+}
+
+.tour-packages--intro {
+	margin-top: 3rem;
 }
 
 
