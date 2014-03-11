@@ -384,47 +384,57 @@ html .document--packages {
 
 /*// Medium screens*/
 @media only screen and (min-width: 40.063rem) {
-	.hide--large {
+/*	.hide--large {
 		display: none;
-	}
+	}*/
 
 } /* min-width 641px, medium screens */
 
 @media only screen and (min-width: 40.063rem) and (max-width: 64rem) {
-	.hide--large {
+/*	.hide--large {
+		display: none;
+	}*/
+
+	.hide--small {
 		display: none;
 	}
+
+	.navigation--main {
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+	}
+
 } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
 
 /*// Large screens*/
 @media only screen and (min-width: 64.063rem) {
-	.hide--large {
+/*	.hide--large {
 		display: none;
-	}
+	}*/
 } /* min-width 1025px, large screens */
 
 @media only screen and (min-width: 64.063rem) and (max-width: 90rem) {
-	.hide--large {
+/*	.hide--large {
 		display: none;
-	}
+	}*/
 } /* min-width 1024px and max-width 1440px, use when QAing large screen-only issues */
 
 /*// XLarge screens*/
 @media only screen and (min-width: 90.063rem) {
-	.hide--large {
+/*	.hide--large {
 		display: none;
-	}
+	}*/
 } /* min-width 1441px, xlarge screens */
 
 @media only screen and (min-width: 90.063rem) and (max-width: 120rem) {
-	.hide--large {
+/*	.hide--large {
 		display: none;
-	}
+	}*/
 } /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
 
 /*// XXLarge screens*/
 @media only screen and (min-width: 120.063rem) {
-	.hide--large {
+/*	.hide--large {
 		display: none;
-	}
+	}*/
 } /* min-width 1921px, xlarge screens */
