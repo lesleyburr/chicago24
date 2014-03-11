@@ -19,9 +19,10 @@ html, body {
 }
 
 /* BLOCKS */
-.browser-height {
+
+/*.browser-height {
 	min-height: 100%;
-}
+}*/
 
 .introduction, .document--schedule, .document--plan-your-day, .document--tour-packages {
 	background-color: #fff;
@@ -172,9 +173,9 @@ html .document--packages {
 }
 
 
-.schedule, .plan-your-day {
-	/*background: #fff;*/
-}
+/*.schedule, .plan-your-day {
+	background: #fff;
+}*/
 
 .schedule__date, .plan-your-day__title, .package__title {
 	background-color: #505050;
@@ -368,7 +369,7 @@ html .document--packages {
 		font-size: 2rem;
 	}
 
-	.package__title, .plan-your-day__title, .schedule__date--center {
+	.package__title, .plan-your-day__title, .schedule__date {
 		text-align: center;
 	}
 
