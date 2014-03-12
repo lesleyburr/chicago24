@@ -272,7 +272,7 @@ html .document--packages {
 	margin-bottom: 1rem;
 }
 
-.package--backyard-historian__info {
+.package--backyard-historian__info, .package--history-buff__info, .package--health-nut__info, .package--night-owl__info, .package--wild-card__info {
 	width: 65%;
 }
 
@@ -416,7 +416,7 @@ html .document--packages {
 		margin-bottom: 1rem;
 	}
 
-	.package--backyard-historian__info {
+	.package--backyard-historian__info, .package--history-buff__info, .package--health-nut__info, .package--night-owl__info, .package--wild-card__info {
 		width: 100%;
 	}
 
@@ -451,7 +451,7 @@ html .document--packages {
 		margin-bottom: 1rem;
 	}
 
-	.package--backyard-historian__info {
+	.package--backyard-historian__info, .package--history-buff__info, .package--health-nut__info, .package--night-owl__info, .package--wild-card__info {
 		width: 100%;
 	}
 
