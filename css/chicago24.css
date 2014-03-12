@@ -376,7 +376,11 @@ html .document--packages {
 
 	.introduction {
 		margin-top: 0;
-		padding-top: 3rem;
+		padding-top: 1rem;
+	}
+
+	.introduction__date {
+		font-size: 1.1rem;
 	}
 
 	.introduction__footer {
