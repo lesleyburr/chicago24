@@ -272,6 +272,10 @@ html .document--packages {
 	margin-bottom: 1rem;
 }
 
+.package--backyard-historian__info {
+	width: 65%;
+}
+
 .package__cost {
 	margin-bottom: 1rem;
 }
@@ -412,6 +416,10 @@ html .document--packages {
 		margin-bottom: 1rem;
 	}
 
+	.package--backyard-historian__info {
+		width: 100%;
+	}
+
 
 } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 
@@ -441,6 +449,10 @@ html .document--packages {
 		text-align: center;
 		margin-top: 1rem;
 		margin-bottom: 1rem;
+	}
+
+	.package--backyard-historian__info {
+		width: 100%;
 	}
 
 } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
