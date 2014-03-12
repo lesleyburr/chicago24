@@ -420,7 +420,7 @@ html .document--packages {
 		margin-bottom: 1rem;
 	}
 
-	.package--backyard-historian__info, .package--history-buff__info, .package--health-nut__info, .package--night-owl__info, .package--wild-card__info {
+	.package--backyard-historian__info, .package--history-buff__info, .package--health-nut__info, .package--night-owl__info, .package--wild-card__info, .museum-info__description__details  {
 		width: 100%;
 	}
 
@@ -455,7 +455,7 @@ html .document--packages {
 		margin-bottom: 1rem;
 	}
 
-	.package--backyard-historian__info, .package--history-buff__info, .package--health-nut__info, .package--night-owl__info, .package--wild-card__info {
+	.package--backyard-historian__info, .package--history-buff__info, .package--health-nut__info, .package--night-owl__info, .package--wild-card__info, .museum-info__description__details  {
 		width: 100%;
 	}
 
