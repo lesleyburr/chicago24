@@ -334,6 +334,11 @@ html .document--packages {
 		display: none;
 	}
 
+	html .document--tour-schedule {
+  		background-image: none;
+  		background-color: #000;
+	}
+
  	.introduction, .document--schedule, .document--tour-packages, .document--plan-your-day {
 		background-color: hsla(0, 100%, 100%, .9);
 		padding: 1rem 1rem 1rem 1rem;
