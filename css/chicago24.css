@@ -257,6 +257,10 @@ html .document--packages {
 	margin-bottom: 0;
 }
 
+.museum-info__description__details {
+	width: 70%;
+}
+
 .tour__description__read-more {
 	/*display: inline;*/
 }
