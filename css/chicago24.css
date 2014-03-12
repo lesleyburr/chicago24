@@ -380,7 +380,7 @@ html .document--packages {
 	}
 
 	.introduction__footer {
-		margin-bottom: none;
+		padding: 1em;
 	}
 
 	.intro__columns {
@@ -388,9 +388,9 @@ html .document--packages {
 		padding-right: 0;
 	}
 
-	footer.introduction__footer {
+/*	footer.introduction__footer {
 		padding-bottom: 5em;
-	}
+	}*/
 
 	.navigation--main {
 		margin-top: 2rem;
