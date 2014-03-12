@@ -240,6 +240,10 @@ html .document--packages {
 	padding: 1rem;
 }
 
+.museum-information {
+	padding: 1rem;
+}
+
 .tour:last-child, .museum-info:last-child {
 	border-bottom: 0;
 }
@@ -257,8 +261,12 @@ html .document--packages {
 	margin-bottom: 0;
 }
 
-.museum-info__description__details {
+.museum-info__description__details, .museum-info__description__contact-details {
 	width: 70%;
+}
+
+.museum-info__description__contact-details {
+	margin-top: 1rem;
 }
 
 .tour__description__read-more {
