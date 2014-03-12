@@ -293,6 +293,11 @@ html .document--packages {
 	text-align: right;
 }
 
+.schedule--share, .plan-your-day--share {
+	text-align: right;
+	margin-top: 7rem;
+}
+
 
 /* FOUNDATION OVERRIDES */
 [class*="block-grid-"] > li {
