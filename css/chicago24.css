@@ -381,11 +381,16 @@ html .document--packages {
 
 	.introduction__footer {
 		padding: 1em;
+		margin-bottom: 0;
 	}
 
 	.intro__columns {
 		padding-left: 0;
 		padding-right: 0;
+	}
+
+	.introduction__footer--copyright {
+		font-size: .5em;
 	}
 
 /*	footer.introduction__footer {
@@ -404,7 +409,7 @@ html .document--packages {
 	}
 
 	.introduction__title {
-		font-size: 1.35rem;
+		font-size: 1.3rem;
 		font-weight: 500;
 		margin-top: 0rem;
 		margin-bottom: 0;
