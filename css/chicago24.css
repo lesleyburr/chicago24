@@ -400,6 +400,17 @@ html .document--packages {
 		text-align: center;
 	}
 
+	.schedule--share, .plan-your-day--share {
+		text-align: center;
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+	}
+
+	.tour-packages--share {
+		text-align: center;
+		margin-bottom: 1rem;
+	}
+
 
 } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 
@@ -423,6 +434,12 @@ html .document--packages {
 	.navigation--main {
 		margin-top: 2rem;
 		margin-bottom: 2rem;
+	}
+
+	.schedule--share, .plan-your-day--share {
+		text-align: center;
+		margin-top: 1rem;
+		margin-bottom: 1rem;
 	}
 
 } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
