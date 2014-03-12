@@ -90,8 +90,6 @@ html, body {
 }
 
 .logo--museum {
-	background-color: #fff;
-	background-color: hsla(0, 100%, 100%, .9);
 	padding: 0rem;
 	margin-bottom: 1rem;
 	width: 100%;
@@ -334,7 +332,12 @@ html .document--packages {
 		display: none;
 	}
 
-	html .document--tour-schedule {
+	html .home {
+		background-image: none;
+  		background-color: #000;
+	}
+
+	html .document--tour-schedule, html .document--plan, html .document--packages {
   		background-image: none;
   		background-color: #000;
 	}
@@ -345,7 +348,11 @@ html .document--packages {
 	}
 
 	.introduction__footer {
-		padding: 1em;	
+		padding: 1em;
+	}
+
+	footer.introduction__footer {
+		padding-bottom: 5em;
 	}
 
 	.navigation--main {
