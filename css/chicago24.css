@@ -240,7 +240,7 @@ html .document--packages {
 	padding: 1rem;
 }
 
-.museum-information {
+.museum-information, .tour-information {
 	padding: 1rem;
 }
 
@@ -253,20 +253,21 @@ html .document--packages {
 	font-weight: 500;
 }
 
-.tour__description, .museum-info__description {
+.tour__description, .museum-info__description, .tour-info__description{
 	font-size: 1rem;
 }
 
-.tour__description__excerpt, .museum-info__description__details {
+.tour__description__excerpt, .museum-info__description__details, .tour-info__description__details {
 	margin-bottom: 0;
 }
 
-.museum-info__description__details, .museum-info__description__contact-details {
+.museum-info__description__details, .tour-info__description__details, .tour-info__description__contact-details {
 	width: 70%;
 }
 
-.museum-info__description__contact-details {
+.tour-info__description__contact-details {
 	margin-top: 1rem;
+	margin-bottom: 0;
 }
 
 .tour__description__read-more {
@@ -428,7 +429,7 @@ html .document--packages {
 		margin-bottom: 1rem;
 	}
 
-	.package--backyard-historian__info, .package--history-buff__info, .package--health-nut__info, .package--night-owl__info, .package--wild-card__info, .museum-info__description__details  {
+	.package--backyard-historian__info, .package--history-buff__info, .package--health-nut__info, .package--night-owl__info, .package--wild-card__info, .museum-info__description__details, .tour-info__description__details {
 		width: 100%;
 	}
 
@@ -463,7 +464,7 @@ html .document--packages {
 		margin-bottom: 1rem;
 	}
 
-	.package--backyard-historian__info, .package--history-buff__info, .package--health-nut__info, .package--night-owl__info, .package--wild-card__info, .museum-info__description__details  {
+	.package--backyard-historian__info, .package--history-buff__info, .package--health-nut__info, .package--night-owl__info, .package--wild-card__info, .museum-info__description__details, .tour-info__description__details {
 		width: 100%;
 	}
 
