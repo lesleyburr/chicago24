@@ -20,12 +20,11 @@ html, body {
 
 /* BLOCKS */
 
-.introduction, .document--schedule, .document--plan-your-day, .document--tour-packages {
+.introduction, .document--schedule, .document--plan-your-24, .document--tour-packages {
 	background-color: #fff;
 	background-color: hsla(0, 100%, 100%, .9);
 	padding: 2rem 5rem 5rem 5rem;
 }
-
 
 .document__title {
 	font-size: 2rem;
@@ -106,7 +105,7 @@ html, body {
 	padding-top: 3rem;
 }
 
-.button--see-schedule, .button--tickets {
+.button--see-schedule, .button--tickets, .button--join-museum {
 	box-shadow: 1px 3px 2px #999;
 	font-weight: 500;
 	letter-spacing: .085rem;
@@ -114,8 +113,13 @@ html, body {
 	transition: box-shadow 0.5s ease;
 }
 
-.button--see-schedule:hover, .button--tickets:hover {
+.button--see-schedule:hover, .button--tickets:hover, .button--join-museum:hover {
 	box-shadow: 0 0 0 #999;
+}
+
+.plan-your-day__member-button {
+	margin-top: 1rem;
+	text-align: right;
 }
 
 html .home {
@@ -162,6 +166,11 @@ html .document--plan {
   background-size: cover;
 }
 
+/*.document--plan-your-24 {
+	background-color: hsla(0, 100%, 100%, .9);
+	padding: 1rem 1rem 1rem 1rem;
+}*/
+
 /* TOUR PACKAGES */
 html .document--packages {
   background: url(../img/eg-downtown.jpg) no-repeat center center fixed;
@@ -200,7 +209,7 @@ html .document--packages {
 	text-transform: uppercase;
 }
 
-.schedule__time, .plan-your-day__address, .plan-your-day__parking, .plan-your-day__accessibility, .plan-your-day__contact, .plan-your-day__refund, .plan-your-day__weather, .plan-your-day__tour-info, .package__tour {
+.schedule__time, .plan-your-day__membership, .plan-your-day__address, .plan-your-day__parking, .plan-your-day__accessibility, .plan-your-day__contact, .plan-your-day__refund, .plan-your-day__weather, .plan-your-day__tour-info, .package__tour {
 	background-color: #ded;
 	background-color: hsla(203, 92%, 75%, .25);
 	border-radius: .25rem;
@@ -392,10 +401,10 @@ html .document--packages {
 		padding-top: 2rem;
 	}
 
-	.button--see-schedule, .button--tickets {
+	.button--see-schedule, .button--tickets, .button--join-museum {
 		margin-top: 2rem;
 		width: 100%;
-}
+	}
 
 	.tour__title, .museum-info__title {
 		font-size: 2rem;
