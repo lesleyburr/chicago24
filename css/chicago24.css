@@ -203,7 +203,7 @@ html .document--packages {
 	list-style: none;
 }
 
-.tour__icon {
+.tour-type__icon {
 	border-radius: 50px;
 	border-size: 3px;
 	border-style:	solid;
@@ -212,11 +212,11 @@ html .document--packages {
 	width: 15%;
 }
 
-.tour__icon--walk {
+.tour-type__icon--walk {
 	border-color: #0077c0;
 }
 
-.tour__icon--train {
+.tour-type__icon--train {
 	border-color: #0077c0;
 }
 
