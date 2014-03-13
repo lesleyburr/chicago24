@@ -427,7 +427,12 @@ html .document--packages {
 	.button--see-schedule, .button--tickets {
 		margin-top: 2rem;
 		width: 100%;
-}
+	}
+
+	.schedule__columns {
+		padding-left: 0;
+		padding-right: 0;
+	}
 
 	.tour__title, .museum-info__title {
 		font-size: 2rem;
