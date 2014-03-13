@@ -370,8 +370,12 @@ html .document--packages {
 	}
 
  	.introduction, .document--schedule, .document--tour-packages, .document--plan-your-day {
-		background-color: hsla(0, 100%, 100%, .9);
+		background-color: #fff;
 		padding: 1rem 1rem 1rem 1rem;
+	}
+
+	.introduction__footer {
+		background-color: #fff;
 	}
 
 	.introduction {
