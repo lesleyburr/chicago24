@@ -388,7 +388,7 @@ html .document--packages {
 		margin-bottom: 0;
 	}
 
-	.intro__columns {
+	.intro__columns, .schedule__columns, .tour-packages__columns {
 		padding-left: 0;
 		padding-right: 0;
 	}
@@ -429,11 +429,6 @@ html .document--packages {
 		width: 100%;
 	}
 
-	.schedule__columns {
-		padding-left: 0;
-		padding-right: 0;
-	}
-
 	.schedule__date {
 		padding: 1rem;
 	}
@@ -458,6 +453,10 @@ html .document--packages {
 
 	.package__title, .plan-your-day__title, .schedule__date {
 		text-align: center;
+	}
+
+	.tour-packages--intro--hide {
+		display: none;
 	}
 
 	.schedule--share, .plan-your-day--share {
