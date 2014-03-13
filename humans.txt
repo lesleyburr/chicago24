@@ -1,0 +1,27 @@
+/* TEAM */
+	UX Designer and Web Developer: Enrique Gonzalez
+	Contact: gonzalez@chicagohistory.org
+	Twitter: @enriquegonzalez
+	From: Chicago, IL USA
+
+	Wed developer: Lesley Burr
+	Contact: burr@chicagohistory.org
+	Twitter: @lesbabyles
+	From: Chicago, IL USA
+
+
+/* THANKS */
+
+	Face icon for scary tours designed by John Draper from the Noun Project
+	http://thenounproject.com/jdraperm.ed/
+
+
+
+/* Foundation was made by ZURB, an interaction design and design strategy firm in Campbell, CA */
+/* zurb.com */
+/* humanstxt.org */
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: jQuery, Orbit, Reveal
+  Software: Sublime, Git, Github, Dropbox, Adobe Photoshop
