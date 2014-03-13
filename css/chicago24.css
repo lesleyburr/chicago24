@@ -388,7 +388,7 @@ html .document--packages {
 		margin-bottom: 0;
 	}
 
-	.intro__columns, .schedule__columns, .tour-packages__columns {
+	.intro__columns, .schedule__columns, .tour-packages__columns, .plan-your-day__columns {
 		padding-left: 0;
 		padding-right: 0;
 	}
