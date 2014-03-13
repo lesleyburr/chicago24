@@ -217,19 +217,19 @@ html .document--packages {
 }
 
 .tour-type__icon--train {
-	border-color: #0077c0;
+	border-color: #4e99d0;
 }
 
 .tour-type__icon--bus {
-	border-color: #0077c0;	
+	border-color: #4e99d0;	
 }
 
 .tour-type__icon--drink {
-	border-color: orange;	
+	border-color: #f26522;	
 }
 
 .tour-type__icon--bike {
-	border-color: green;	
+	border-color: #80c342;	
 }
 
 .tour-type__icon--scream {
@@ -237,7 +237,7 @@ html .document--packages {
 }
 
 .tour-type__icon--run {
-	border-color: yellow;	
+	border-color: #dfb904;	
 }
 
 .tour-type__icon--eat {
