@@ -15,6 +15,9 @@
 	Face icon for scary tours designed by John Draper from the Noun Project
 	http://thenounproject.com/jdraperm.ed/
 
+	Silverware icon for eating tours designed by Jardson A. from the Noun Project
+	http://thenounproject.com/jardson/
+
 
 
 /* Foundation was made by ZURB, an interaction design and design strategy firm in Campbell, CA */
