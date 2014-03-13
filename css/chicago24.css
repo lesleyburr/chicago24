@@ -277,6 +277,7 @@ html .document--packages {
 
 .museum-information, .tour-information {
 	padding: 1rem;
+	list-style-type: none;
 }
 
 .tour:last-child, .museum-info:last-child {
