@@ -434,6 +434,16 @@ html .document--packages {
 		padding-right: 0;
 	}
 
+	.schedule__date {
+		padding: 1rem;
+	}
+
+	.schedule__date__day, .tours__count {
+		padding-top: 0;
+		padding-bottom: 0;
+		margin: 0;
+	}
+
 	.document__lead {
 		font-size: 1.4rem;
 	}
