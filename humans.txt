@@ -4,7 +4,7 @@
 	Twitter: @enriquegonzalez
 	From: Chicago, IL USA
 
-	Wed developer: Lesley Burr
+	Web Developer: Lesley Burr
 	Contact: burr@chicagohistory.org
 	Twitter: @lesbabyles
 	From: Chicago, IL USA
@@ -15,8 +15,11 @@
 	Face icon for scary tours designed by John Draper from the Noun Project
 	http://thenounproject.com/jdraperm.ed/
 
-	Silverware icon for eating tours designed by Jardson A. from the Noun Project
+	Silverware icon for eating tour designed by Jardson A. from the Noun Project
 	http://thenounproject.com/jardson/
+
+	Coffee icon for coffee tour designed by Pako Regalado from the Noun Project
+	http://thenounproject.com/FranciscoRM90/
 
 
 
