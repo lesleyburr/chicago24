@@ -248,6 +248,14 @@ html .document--packages {
 	border-color: #f26522
 }
 
+.tour-type__icon--dog {
+	border-color: #000;
+}
+
+.tour-type__icon--cemetery {
+	border-color: #000;
+}
+
 .schedule__time, .plan-your-day__address, .plan-your-day__membership, .plan-your-day__parking, .plan-your-day__accessibility, .plan-your-day__contact, .plan-your-day__refund, .plan-your-day__weather, .plan-your-day__tour-info, .package__tour {
 	background-color: #ded;
 	background-color: hsla(203, 92%, 75%, .25);
