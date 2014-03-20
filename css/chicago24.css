@@ -351,6 +351,7 @@ html .document--packages {
 
 .tour-package__tour--date {
 	font-size: 1em;
+	margin-bottom: 0;
 }
 
 .tour-packages--intro {
