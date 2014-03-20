@@ -12,8 +12,8 @@
 
 /* THANKS */
 
-	Face icon for scary tours designed by John Draper from the Noun Project
-	http://thenounproject.com/jdraperm.ed/
+	Ghost icon for ghost tour designed by Paulo Volkova from the Noun Project
+	http://thenounproject.com/Paulo%20Volkova/
 
 	Silverware icon for eating tour designed by Jardson A. from the Noun Project
 	http://thenounproject.com/jardson/
@@ -22,10 +22,10 @@
 	http://thenounproject.com/FranciscoRM90/
 
 	Cemetery icon for cemetery tours designed by Juan Pablo Bravo from the Noun Project
-	http://thenounproject.com/term/cemetery/14900/
+	http://thenounproject.com/bravo/
 
 	Dog icon for dog tours designed by Luis Prado from the Noun Project
-	http://thenounproject.com/term/dog/12697/
+	http://thenounproject.com/Luis/
 
 
 /* Foundation was made by ZURB, an interaction design and design strategy firm in Campbell, CA */
