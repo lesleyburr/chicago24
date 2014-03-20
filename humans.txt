@@ -21,6 +21,11 @@
 	Coffee icon for coffee tour designed by Pako Regalado from the Noun Project
 	http://thenounproject.com/FranciscoRM90/
 
+	Cemetery icon for cemetery tours designed by Juan Pablo Bravo from the Noun Project
+	http://thenounproject.com/term/cemetery/14900/
+
+	Dog icon for dog tours designed by Luis Prado from the Noun Project
+	http://thenounproject.com/term/dog/12697/
 
 
 /* Foundation was made by ZURB, an interaction design and design strategy firm in Campbell, CA */
