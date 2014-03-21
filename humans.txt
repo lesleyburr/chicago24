@@ -24,8 +24,8 @@
 	Cemetery icon for cemetery tours designed by Juan Pablo Bravo from the Noun Project
 	http://thenounproject.com/bravo/
 
-	Dog icon for dog tours designed by Luis Prado from the Noun Project
-	http://thenounproject.com/Luis/
+	Paw print icon for dog tours designed by Luis Martins from the Noun Project
+	http://thenounproject.com/term/paw-print/2317/
 
 
 /* Foundation was made by ZURB, an interaction design and design strategy firm in Campbell, CA */
