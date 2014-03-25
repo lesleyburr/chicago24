@@ -290,7 +290,6 @@ html .document--packages {
 	padding-top: .75rem;
 }
 
-
 .tour, .museum-info {
 	border-bottom: 2px dotted hsla(0, 0%, 75%, 1);
 	padding: 1rem;
@@ -551,6 +550,14 @@ html .document--packages {
 
 	.museum-info__title {
 		font-size: 1.5rem;
+	}
+
+	.tour__time {
+		margin-bottom: 0;
+	}
+
+	.tour-type {
+		margin-bottom: 1rem;
 	}
 
 
