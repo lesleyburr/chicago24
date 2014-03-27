@@ -41,7 +41,7 @@ $(".tour__link--read-more").click(function(e) {
    };
 })( jQuery );
 
-$(".tour__link--read-more").click(function(e) {
+$(".tour__link--see-tours").click(function(e) {
 		e.preventDefault();
 		$(this).reading();
 		$(this).parent().siblings("p").first().toggleClass("tour__description__excerpt");
