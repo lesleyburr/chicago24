@@ -560,14 +560,15 @@ html .document--packages {
 		margin-bottom: 1rem;
 	}
 
+	.package__cost--small {
+		margin-top: 1rem;
+	}
+
 
 } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 
 /*// Medium screens*/
 @media only screen and (min-width: 40.063rem) {
-/*	.hide--large {
-		display: none;
-	}*/
 
 } /* min-width 641px, medium screens */
 
@@ -576,7 +577,7 @@ html .document--packages {
 		display: none;
 	}*/
 
-	.hide--small {
+	.package__cost--small {
 		display: none;
 	}
 
@@ -608,33 +609,33 @@ html .document--packages {
 
 /*// Large screens*/
 @media only screen and (min-width: 64.063rem) {
-/*	.hide--large {
+	.package__cost--small {
 		display: none;
-	}*/
+	}
 } /* min-width 1025px, large screens */
 
 @media only screen and (min-width: 64.063rem) and (max-width: 90rem) {
-/*	.hide--large {
+	.package__cost--small {
 		display: none;
-	}*/
+	}
 } /* min-width 1024px and max-width 1440px, use when QAing large screen-only issues */
 
 /*// XLarge screens*/
 @media only screen and (min-width: 90.063rem) {
-/*	.hide--large {
+	.package__cost--small {
 		display: none;
-	}*/
+	}
 } /* min-width 1441px, xlarge screens */
 
 @media only screen and (min-width: 90.063rem) and (max-width: 120rem) {
-/*	.hide--large {
+	.package__cost--small {
 		display: none;
-	}*/
+	}
 } /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
 
 /*// XXLarge screens*/
 @media only screen and (min-width: 120.063rem) {
-/*	.hide--large {
+	.package__cost--small {
 		display: none;
-	}*/
+	}
 } /* min-width 1921px, xlarge screens 
