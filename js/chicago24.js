@@ -22,3 +22,16 @@ $(".tour__link--read-more").click(function(e) {
 		$(this).parent().siblings().children("[id$=Description]").css('display','inline');
 
 	});
+
+
+
+
+//
+// TOUR PACKAGES
+//
+
+
+// $(".package-tour__link--read-more").click(function() {
+//     $("#TourPackageBackyardHistorianDescription").toggle();
+//     return false;
+// });
