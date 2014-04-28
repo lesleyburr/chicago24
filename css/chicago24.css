@@ -113,6 +113,14 @@ html, body {
 	transition: box-shadow 0.5s ease;
 }
 
+.button--tickets-sold-out {
+	background-color: hsla(39, 100%, 50%, 1);
+}
+
+.button--tickets-sold-out:hover {
+	background-color: hsla(39, 100%, 47%, 1);
+}
+
 .button--see-schedule:hover, .button--tickets:hover {
 	box-shadow: 0 0 0 #999;
 }
